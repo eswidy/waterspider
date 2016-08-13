@@ -1,0 +1,1 @@
+scrapy runspider myspider.py
