@@ -1,4 +1,5 @@
 pip -q install scrapy 
+pip -q install HTMLParser
 apt-get install -y  libmysqld-dev
 mkdir ~/dev
 cd ~/dev 
