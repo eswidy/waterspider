@@ -1,20 +1,23 @@
 # encoding=utf8
-import scrapy
+import scrapy,re
 
 class BlogSpider(scrapy.Spider):
     name = 'blogspider'
-    # start_urls = ['http://club.autohome.com.cn/bbs/thread-o-200028-34537139-1.html']
-    start_urls = ['http://club.autohome.com.cn/bbs/thread-o-200028-37396734-1.html']
+    start_urls = ['http://club.autohome.com.cn/bbs/thread-o-200028-34537139-1.html']
+    #start_urls = ['http://club.autohome.com.cn/bbs/thread-o-200028-37396734-1.html']
     base_url= 'http://club.autohome.com.cn'
     sql_prefix = 'insert into autousers(context,post_title,reg_date,post_date,author_loc,nickname,userid,car,verfied) values('
     sql_suffix = ')'
     default_encode = 'utf8'
     src = 'autohome'
+    TAG_RE = re.compile(r'<[^>]+>')
     f = open(r'content1.txt', 'wb')
 
     def parse(self, response):
         # get the post context  encode with utf8
         conext = response.xpath('//div[@class="conttxt"]').xpath('./div[@class="w740"]').extract()[0].strip('\'')
+        conext = conext.replace('\r\n','').replace('|','')
+        conext = self.remove_tags(conext)
         # get the post title
         post_title = response.css('.maxtitle::text').extract()[0];
         sql2 = self.add_str(conext,post_title)
@@ -62,8 +65,9 @@ class BlogSpider(scrapy.Spider):
         x = old + '|'  +zz
         print(zz)
         return x
-
-
+    
+    def remove_tags(self,text): 
+        return self.TAG_RE.sub('', text)
 
 
 
