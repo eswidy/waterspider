@@ -1,1 +1,1 @@
-scrapy runspider myspider.py
+scrapy runspider m2.py
