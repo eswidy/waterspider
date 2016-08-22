@@ -13,7 +13,7 @@ class CarsSpider(scrapy.Spider):
         # get all the post url in the page
         for url in response.css('.a_topic').xpath('./@href'):
             # decrease the  affect of network flow or the antiCrawler
-            # time.sleep(2)
+            time.sleep(2)
             print("---------------"+self.base_url + url.extract())
             yield scrapy.Request(self.base_url + url.extract(), self.parse_posts)
 
@@ -22,6 +22,7 @@ class CarsSpider(scrapy.Spider):
         if (xurl != ''):
             print("###########" + self.base_url + xurl)
             self.parse(self.base_url + xurl)
+            yield scrapy.Request(self.base_url + xurl, self.parse)
             self.f.flush()
         else:
             self.f.close()
@@ -73,8 +74,8 @@ class CarsSpider(scrapy.Spider):
             verfied = '1'
         sql2 = self.add_str(sql2, verfied)
         # print(sql2)
-        # self.f.write(sql2.encode(self.default_encode))
-        # self.f.write('\n')
+        self.f.write(sql2.encode(self.default_encode))
+        self.f.write('\n')
         # time.sleep(5)
 
     def add_str(self, old, zz):
