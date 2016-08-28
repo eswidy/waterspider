@@ -13,7 +13,7 @@ class CarsSpider(scrapy.Spider):
         # get all the post url in the page
         for url in response.css('.a_topic').xpath('./@href'):
             # decrease the  affect of network flow or the antiCrawler
-            time.sleep(2)
+            time.sleep(1)
             print("---------------"+self.base_url + url.extract())
             yield scrapy.Request(self.base_url + url.extract(), self.parse_posts)
 
@@ -69,8 +69,8 @@ class CarsSpider(scrapy.Spider):
 
         # get the verfied mark
         verfied = '0'
-        owner = response.xpath('//div[@id="F0"]/div').xpath('./ul[@class="maxw"]/li[1]/a[2]/@title').extract()
-        if (len(owner) != '0'):
+        owner = response.xpath('//div[@id="F0"]/div').xpath('./ul[@class="maxw"]/li[1]/a').extract()
+        if (len(owner) == 2):
             verfied = '1'
         sql2 = self.add_str(sql2, verfied)
         # print(sql2)
