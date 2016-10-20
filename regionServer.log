@@ -1,0 +1,1318 @@
+2016-10-17 18:14:14,928 INFO  [sync.3] wal.FSHLog: Slow sync cost: 172 ms, current pipeline: [DatanodeInfoWithStorage[172.17.6.103:50010,DS-60cc5527-09ee-4ba4-945f-dbf1253dcc7c,DISK], DatanodeInfoWithStorage[172.17.6.102:50010,DS-907fc633-e1ea-485e-93f4-624d8e452200,DISK], DatanodeInfoWithStorage[172.17.6.101:50010,DS-085bd6a2-0a32-4447-b758-b782340b5583,DISK]]
+2016-10-17 18:14:45,158 WARN  [RpcServer.reader=2,bindAddress=Node3,port=16020] ipc.RpcServer: Expected HEADER=HBas but received HEADER=GET  from 172.18.1.2:25251
+2016-10-17 18:15:16,133 WARN  [RpcServer.reader=3,bindAddress=Node3,port=16020] ipc.RpcServer: Expected HEADER=HBas but received HEADER=GET  from 172.18.1.2:18742
+2016-10-17 18:15:28,284 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=1.47 MB, freeSize=968.78 MB, max=970.25 MB, blockCount=43, accesses=4895944, hits=3325611, hitRatio=67.93%, , cachingAccesses=4536440, cachingHits=3200402, cachingHitsRatio=70.55%, evictions=3998, evicted=1335995, evictedPerRun=334.16583251953125
+2016-10-17 18:18:41,725 INFO  [HBase-Metrics2-1] impl.MetricsSystemImpl: Stopping HBase metrics system...
+2016-10-17 18:18:41,726 INFO  [timeline] impl.MetricsSinkAdapter: timeline thread interrupted.
+2016-10-17 18:18:41,729 INFO  [HBase-Metrics2-1] impl.MetricsSystemImpl: HBase metrics system stopped.
+2016-10-17 18:18:41,729 INFO  [pool-169-thread-1] timeline.HadoopTimelineMetricsSink: Closing HadoopTimelineMetricSink. Flushing metrics to collector...
+2016-10-17 18:18:42,230 INFO  [HBase-Metrics2-1] impl.MetricsConfig: loaded properties from hadoop-metrics2-hbase.properties
+2016-10-17 18:18:42,239 INFO  [HBase-Metrics2-1] timeline.HadoopTimelineMetricsSink: Initializing Timeline metrics sink.
+2016-10-17 18:18:42,239 INFO  [HBase-Metrics2-1] timeline.HadoopTimelineMetricsSink: Identified hostname = node3, serviceName = hbase
+2016-10-17 18:18:42,239 INFO  [HBase-Metrics2-1] timeline.HadoopTimelineMetricsSink: Collector Uri: http://node3:6188/ws/v1/timeline/metrics
+2016-10-17 18:18:42,242 INFO  [HBase-Metrics2-1] impl.MetricsSinkAdapter: Sink timeline started
+2016-10-17 18:18:42,243 INFO  [HBase-Metrics2-1] impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2016-10-17 18:18:42,243 INFO  [HBase-Metrics2-1] impl.MetricsSystemImpl: HBase metrics system started
+2016-10-17 18:20:28,395 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=1.47 MB, freeSize=968.78 MB, max=970.25 MB, blockCount=43, accesses=4895991, hits=3325658, hitRatio=67.93%, , cachingAccesses=4536487, cachingHits=3200449, cachingHitsRatio=70.55%, evictions=4028, evicted=1335995, evictedPerRun=331.677001953125
+2016-10-17 18:23:41,725 INFO  [HBase-Metrics2-1] impl.MetricsSystemImpl: Stopping HBase metrics system...
+2016-10-17 18:23:41,726 INFO  [timeline] impl.MetricsSinkAdapter: timeline thread interrupted.
+2016-10-17 18:23:41,729 INFO  [HBase-Metrics2-1] impl.MetricsSystemImpl: HBase metrics system stopped.
+2016-10-17 18:23:41,729 INFO  [pool-170-thread-1] timeline.HadoopTimelineMetricsSink: Closing HadoopTimelineMetricSink. Flushing metrics to collector...
+2016-10-17 18:23:42,230 INFO  [HBase-Metrics2-1] impl.MetricsConfig: loaded properties from hadoop-metrics2-hbase.properties
+2016-10-17 18:23:42,237 INFO  [HBase-Metrics2-1] timeline.HadoopTimelineMetricsSink: Initializing Timeline metrics sink.
+2016-10-17 18:23:42,237 INFO  [HBase-Metrics2-1] timeline.HadoopTimelineMetricsSink: Identified hostname = node3, serviceName = hbase
+2016-10-17 18:23:42,237 INFO  [HBase-Metrics2-1] timeline.HadoopTimelineMetricsSink: Collector Uri: http://node3:6188/ws/v1/timeline/metrics
+2016-10-17 18:23:42,240 INFO  [HBase-Metrics2-1] impl.MetricsSinkAdapter: Sink timeline started
+2016-10-17 18:23:42,241 INFO  [HBase-Metrics2-1] impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2016-10-17 18:23:42,241 INFO  [HBase-Metrics2-1] impl.MetricsSystemImpl: HBase metrics system started
+2016-10-17 18:25:28,284 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=1.47 MB, freeSize=968.78 MB, max=970.25 MB, blockCount=43, accesses=4896038, hits=3325705, hitRatio=67.93%, , cachingAccesses=4536534, cachingHits=3200496, cachingHitsRatio=70.55%, evictions=4058, evicted=1335995, evictedPerRun=329.2249755859375
+2016-10-17 18:28:41,725 INFO  [HBase-Metrics2-1] impl.MetricsSystemImpl: Stopping HBase metrics system...
+2016-10-17 18:28:41,726 INFO  [timeline] impl.MetricsSinkAdapter: timeline thread interrupted.
+2016-10-17 18:28:41,729 INFO  [HBase-Metrics2-1] impl.MetricsSystemImpl: HBase metrics system stopped.
+2016-10-17 18:28:41,729 INFO  [pool-171-thread-1] timeline.HadoopTimelineMetricsSink: Closing HadoopTimelineMetricSink. Flushing metrics to collector...
+2016-10-17 18:28:42,230 INFO  [HBase-Metrics2-1] impl.MetricsConfig: loaded properties from hadoop-metrics2-hbase.properties
+2016-10-17 18:28:42,236 INFO  [HBase-Metrics2-1] timeline.HadoopTimelineMetricsSink: Initializing Timeline metrics sink.
+2016-10-17 18:28:42,237 INFO  [HBase-Metrics2-1] timeline.HadoopTimelineMetricsSink: Identified hostname = node3, serviceName = hbase
+2016-10-17 18:28:42,237 INFO  [HBase-Metrics2-1] timeline.HadoopTimelineMetricsSink: Collector Uri: http://node3:6188/ws/v1/timeline/metrics
+2016-10-17 18:28:42,241 INFO  [HBase-Metrics2-1] impl.MetricsSinkAdapter: Sink timeline started
+2016-10-17 18:28:42,241 INFO  [HBase-Metrics2-1] impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2016-10-17 18:28:42,241 INFO  [HBase-Metrics2-1] impl.MetricsSystemImpl: HBase metrics system started
+2016-10-17 18:30:28,412 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=1.47 MB, freeSize=968.78 MB, max=970.25 MB, blockCount=43, accesses=4896109, hits=3325776, hitRatio=67.93%, , cachingAccesses=4536605, cachingHits=3200567, cachingHitsRatio=70.55%, evictions=4088, evicted=1335995, evictedPerRun=326.8089599609375
+2016-10-17 18:30:58,569 INFO  [node3,16020,1476672854077_ChoreService_2] regionserver.HRegionServer: node3,16020,1476672854077-MemstoreFlusherChore requesting flush for region hbase:meta,,1.1588230740 after a delay of 19337
+2016-10-17 18:31:08,486 INFO  [node3,16020,1476672854077_ChoreService_1] regionserver.HRegionServer: node3,16020,1476672854077-MemstoreFlusherChore requesting flush for region hbase:meta,,1.1588230740 after a delay of 22208
+2016-10-17 18:31:17,907 INFO  [MemStoreFlusher.0] regionserver.HRegion: Started memstore flush for hbase:meta,,1.1588230740, current region memstore size 4.55 KB, and 1/1 column families' memstores are being flushed.
+2016-10-17 18:31:17,940 INFO  [MemStoreFlusher.0] regionserver.DefaultStoreFlusher: Flushed, sequenceid=7161, memsize=4.6 K, hasBloomFilter=false, into tmp file hdfs://node1:8020/apps/hbase/data/data/hbase/meta/1588230740/.tmp/43effe8e9851447b9847c77a2b7afdfd
+2016-10-17 18:31:17,953 INFO  [MemStoreFlusher.0] regionserver.StoreFile$Reader: Loaded Delete Family Bloom (CompoundBloomFilter) metadata for 43effe8e9851447b9847c77a2b7afdfd
+2016-10-17 18:31:17,962 INFO  [MemStoreFlusher.0] regionserver.StoreFile$Reader: Loaded Delete Family Bloom (CompoundBloomFilter) metadata for 43effe8e9851447b9847c77a2b7afdfd
+2016-10-17 18:31:17,962 INFO  [MemStoreFlusher.0] regionserver.HStore: Added hdfs://node1:8020/apps/hbase/data/data/hbase/meta/1588230740/info/43effe8e9851447b9847c77a2b7afdfd, entries=15, sequenceid=7161, filesize=6.8 K
+2016-10-17 18:31:17,964 INFO  [MemStoreFlusher.0] regionserver.HRegion: Finished memstore flush of ~4.55 KB/4664, currentsize=0 B/0 for region hbase:meta,,1.1588230740 in 57ms, sequenceid=7161, compaction requested=true
+2016-10-17 18:31:17,966 INFO  [regionserver/Node3/172.17.6.103:16020-shortCompactions-1476673123402] regionserver.HRegion: Starting compaction on info in region hbase:meta,,1.1588230740
+2016-10-17 18:31:17,966 INFO  [regionserver/Node3/172.17.6.103:16020-shortCompactions-1476673123402] regionserver.HStore: Starting compaction of 3 file(s) in info of hbase:meta,,1.1588230740 into tmpdir=hdfs://node1:8020/apps/hbase/data/data/hbase/meta/1588230740/.tmp, totalSize=350.9 K
+2016-10-17 18:31:18,009 INFO  [regionserver/Node3/172.17.6.103:16020-shortCompactions-1476673123402] regionserver.StoreFile$Reader: Loaded Delete Family Bloom (CompoundBloomFilter) metadata for 2744f2b0d56e4f29844762c1d1dee1cc
+2016-10-17 18:31:18,019 INFO  [regionserver/Node3/172.17.6.103:16020-shortCompactions-1476673123402] regionserver.StoreFile$Reader: Loaded Delete Family Bloom (CompoundBloomFilter) metadata for 43effe8e9851447b9847c77a2b7afdfd
+2016-10-17 18:31:18,020 INFO  [regionserver/Node3/172.17.6.103:16020-shortCompactions-1476673123402] hfile.CacheConfig: blockCache=LruBlockCache{blockCount=43, currentSize=1540848, freeSize=1015840016, maxSize=1017380864, heapSize=1540848, minSize=966511808, minFactor=0.95, multiSize=483255904, multiFactor=0.5, singleSize=241627952, singleFactor=0.25}, cacheDataOnRead=true, cacheDataOnWrite=false, cacheIndexesOnWrite=false, cacheBloomsOnWrite=false, cacheEvictOnClose=false, cacheDataCompressed=false, prefetchOnOpen=false
+2016-10-17 18:31:18,225 INFO  [regionserver/Node3/172.17.6.103:16020-shortCompactions-1476673123402] regionserver.HStore: Completed compaction of 3 (all) file(s) in info of hbase:meta,,1.1588230740 into 8f79a9067d6241c9a2899fcdb8697424(size=339.1 K), total size for store is 339.1 K. This selection was in queue for 0sec, and took 0sec to execute.
+2016-10-17 18:31:18,225 INFO  [regionserver/Node3/172.17.6.103:16020-shortCompactions-1476673123402] regionserver.CompactSplitThread: Completed compaction: Request = regionName=hbase:meta,,1.1588230740, storeName=info, fileCount=3, fileSize=350.9 K, priority=7, time=350083123111766; duration=0sec
+2016-10-17 18:33:41,726 INFO  [HBase-Metrics2-1] impl.MetricsSystemImpl: Stopping HBase metrics system...
+2016-10-17 18:33:41,727 INFO  [timeline] impl.MetricsSinkAdapter: timeline thread interrupted.
+2016-10-17 18:33:41,729 INFO  [HBase-Metrics2-1] impl.MetricsSystemImpl: HBase metrics system stopped.
+2016-10-17 18:33:41,729 INFO  [pool-172-thread-1] timeline.HadoopTimelineMetricsSink: Closing HadoopTimelineMetricSink. Flushing metrics to collector...
+2016-10-17 18:33:42,230 INFO  [HBase-Metrics2-1] impl.MetricsConfig: loaded properties from hadoop-metrics2-hbase.properties
+2016-10-17 18:33:42,238 INFO  [HBase-Metrics2-1] timeline.HadoopTimelineMetricsSink: Initializing Timeline metrics sink.
+2016-10-17 18:33:42,238 INFO  [HBase-Metrics2-1] timeline.HadoopTimelineMetricsSink: Identified hostname = node3, serviceName = hbase
+2016-10-17 18:33:42,238 INFO  [HBase-Metrics2-1] timeline.HadoopTimelineMetricsSink: Collector Uri: http://node3:6188/ws/v1/timeline/metrics
+2016-10-17 18:33:42,241 INFO  [HBase-Metrics2-1] impl.MetricsSinkAdapter: Sink timeline started
+2016-10-17 18:33:42,241 INFO  [HBase-Metrics2-1] impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2016-10-17 18:33:42,241 INFO  [HBase-Metrics2-1] impl.MetricsSystemImpl: HBase metrics system started
+2016-10-17 18:35:28,284 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=1.47 MB, freeSize=968.78 MB, max=970.25 MB, blockCount=42, accesses=4896198, hits=3325823, hitRatio=67.93%, , cachingAccesses=4536651, cachingHits=3200572, cachingHitsRatio=70.55%, evictions=4118, evicted=1336037, evictedPerRun=324.4383239746094
+2016-10-17 18:38:41,738 INFO  [HBase-Metrics2-1] impl.MetricsSystemImpl: Stopping HBase metrics system...
+2016-10-17 18:38:41,739 INFO  [timeline] impl.MetricsSinkAdapter: timeline thread interrupted.
+2016-10-17 18:38:41,743 INFO  [HBase-Metrics2-1] impl.MetricsSystemImpl: HBase metrics system stopped.
+2016-10-17 18:38:41,743 INFO  [pool-173-thread-1] timeline.HadoopTimelineMetricsSink: Closing HadoopTimelineMetricSink. Flushing metrics to collector...
+2016-10-17 18:38:42,244 INFO  [HBase-Metrics2-1] impl.MetricsConfig: loaded properties from hadoop-metrics2-hbase.properties
+2016-10-17 18:38:42,252 INFO  [HBase-Metrics2-1] timeline.HadoopTimelineMetricsSink: Initializing Timeline metrics sink.
+2016-10-17 18:38:42,252 INFO  [HBase-Metrics2-1] timeline.HadoopTimelineMetricsSink: Identified hostname = node3, serviceName = hbase
+2016-10-17 18:38:42,252 INFO  [HBase-Metrics2-1] timeline.HadoopTimelineMetricsSink: Collector Uri: http://node3:6188/ws/v1/timeline/metrics
+2016-10-17 18:38:42,256 INFO  [HBase-Metrics2-1] impl.MetricsSinkAdapter: Sink timeline started
+2016-10-17 18:38:42,257 INFO  [HBase-Metrics2-1] impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2016-10-17 18:38:42,257 INFO  [HBase-Metrics2-1] impl.MetricsSystemImpl: HBase metrics system started
+2016-10-17 18:40:28,320 INFO  [LruBlockCacheStatsExecutor] hfile.LruBlockCache: totalSize=1.47 MB, freeSize=968.78 MB, max=970.25 MB, blockCount=42, accesses=4896357, hits=3325982, hitRatio=67.93%, , cachingAccesses=4536810, cachingHits=3200731, cachingHitsRatio=70.55%, evictions=4148, evicted=1336037, evictedPerRun=322.09185791015625
+2016-10-17 18:43:52,978 INFO  [node3,16020,1476672854077_ChoreService_2] regionserver.HRegionServer$CompactionChecker: Chore: CompactionChecker missed its start time
+2016-10-17 18:43:52,983 INFO  [node3,16020,1476672854077_ChoreService_2] regionserver.HRegionServer$PeriodicMemstoreFlusher: Chore: node3,16020,1476672854077-MemstoreFlusherChore missed its start time
+2016-10-17 18:44:07,232 WARN  [JvmPauseMonitor] util.JvmPauseMonitor: Detected pause in JVM or host machine (eg GC): pause of approximately 25440ms
+No GCs detected
+2016-10-17 18:44:07,232 WARN  [B.priority.fifo.QRpcServer.handler=19,queue=1,port=16020] ipc.RpcServer: (responseTooSlow): {"call":"Scan(org.apache.hadoop.hbase.protobuf.generated.ClientProtos$ScanRequest)","starttimems":1476701032985,"responsesize":26,"method":"Scan","processingtimems":14247,"client":"172.17.6.104:36502","queuetimems":0,"class":"HRegionServer"}
+2016-10-17 18:44:07,860 WARN  [regionserver/Node3/172.17.6.103:16020] util.Sleeper: We slept 28310ms instead of 3000ms, this is likely due to a long garbage collecting pause and it's usually bad, see http://hbase.apache.org/book.html#trouble.rs.runtime.zkexpired
+2016-10-17 18:44:07,860 INFO  [HBase-Metrics2-1] impl.MetricsSystemImpl: Stopping HBase metrics system...
+2016-10-17 18:44:07,878 INFO  [pool-174-thread-1] timeline.HadoopTimelineMetricsSink: Closing HadoopTimelineMetricSink. Flushing metrics to collector...
+2016-10-17 18:44:07,934 INFO  [main-SendThread(Node4:2181)] zookeeper.ClientCnxn: Client session timed out, have not heard from server in 40748ms for sessionid 0x357d089547c0003, closing socket connection and attempting reconnect
+2016-10-17 18:44:07,989 INFO  [regionserver/Node3/172.17.6.103:16020-SendThread(Node4:2181)] zookeeper.ClientCnxn: Client session timed out, have not heard from server in 40751ms for sessionid 0x257d08954810003, closing socket connection and attempting reconnect
+2016-10-17 18:44:08,005 INFO  [HBase-Metrics2-1] impl.MetricsSystemImpl: HBase metrics system stopped.
+2016-10-17 18:44:20,007 INFO  [HBase-Metrics2-1] impl.MetricsConfig: loaded properties from hadoop-metrics2-hbase.properties
+2016-10-17 18:44:20,024 INFO  [HBase-Metrics2-1] timeline.HadoopTimelineMetricsSink: Initializing Timeline metrics sink.
+2016-10-17 18:44:20,024 INFO  [HBase-Metrics2-1] timeline.HadoopTimelineMetricsSink: Identified hostname = node3, serviceName = hbase
+2016-10-17 18:44:20,024 INFO  [HBase-Metrics2-1] timeline.HadoopTimelineMetricsSink: Collector Uri: http://node3:6188/ws/v1/timeline/metrics
+2016-10-17 18:44:20,044 INFO  [HBase-Metrics2-1] impl.MetricsSinkAdapter: Sink timeline started
+2016-10-17 18:44:20,045 INFO  [HBase-Metrics2-1] impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2016-10-17 18:44:20,045 INFO  [HBase-Metrics2-1] impl.MetricsSystemImpl: HBase metrics system started
+2016-10-17 18:44:20,047 INFO  [regionserver/Node3/172.17.6.103:16020-SendThread(Node1:2181)] zookeeper.ClientCnxn: Opening socket connection to server Node1/172.17.6.101:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-10-17 18:44:20,047 INFO  [regionserver/Node3/172.17.6.103:16020-SendThread(Node1:2181)] zookeeper.ClientCnxn: Socket connection established to Node1/172.17.6.101:2181, initiating session
+2016-10-17 18:44:20,049 INFO  [regionserver/Node3/172.17.6.103:16020-SendThread(Node1:2181)] zookeeper.ClientCnxn: Unable to read additional data from server sessionid 0x257d08954810003, likely server has closed socket, closing socket connection and attempting reconnect
+2016-10-17 18:44:20,104 INFO  [main-SendThread(Node2:2181)] zookeeper.ClientCnxn: Opening socket connection to server Node2/172.17.6.102:2181. Will not attempt to authenticate using SASL (unknown error)
+2016-10-17 18:44:20,113 INFO  [main-SendThread(Node2:2181)] zookeeper.ClientCnxn: Socket connection established to Node2/172.17.6.102:2181, initiating session
+2016-10-17 18:44:20,154 INFO  [main-SendThread(Node2:2181)] zookeeper.ClientCnxn: Unable to reconnect to ZooKeeper service, session 0x357d089547c0003 has expired, closing socket connection
+2016-10-17 18:44:20,156 FATAL [main-EventThread] regionserver.HRegionServer: ABORTING region server node3,16020,1476672854077: regionserver:16020-0x357d089547c0003, quorum=node2:2181,node1:2181,node4:2181, baseZNode=/hbase-unsecure regionserver:16020-0x357d089547c0003 received expired from ZooKeeper, aborting
+org.apache.zookeeper.KeeperException$SessionExpiredException: KeeperErrorCode = Session expired
+	at org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher.connectionEvent(ZooKeeperWatcher.java:585)
+	at org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher.process(ZooKeeperWatcher.java:517)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:534)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:510)
+2016-10-17 18:44:20,172 FATAL [main-EventThread] regionserver.HRegionServer: RegionServer abort: loaded coprocessors are: [org.apache.hadoop.hbase.security.access.SecureBulkLoadEndpoint, org.apache.hadoop.hbase.coprocessor.MultiRowMutationEndpoint]
+2016-10-17 18:44:20,186 INFO  [main-EventThread] regionserver.HRegionServer: Dump of metrics as JSON on abort: {
+  "beans" : [ {
+    "name" : "java.lang:type=Memory",
+    "modelerType" : "sun.management.MemoryImpl",
+    "Verbose" : true,
+    "ObjectPendingFinalizationCount" : 0,
+    "NonHeapMemoryUsage" : {
+      "committed" : 113217536,
+      "init" : 2555904,
+      "max" : -1,
+      "used" : 97295576
+    },
+    "HeapMemoryUsage" : {
+      "committed" : 2543452160,
+      "init" : 2621440000,
+      "max" : 2543452160,
+      "used" : 1628085504
+    },
+    "ObjectName" : "java.lang:type=Memory"
+  } ],
+  "beans" : [ {
+    "name" : "Hadoop:service=HBase,name=RegionServer,sub=IPC",
+    "modelerType" : "RegionServer,sub=IPC",
+    "tag.Context" : "regionserver",
+    "tag.Hostname" : "Node3",
+    "queueSize" : 0,
+    "numCallsInGeneralQueue" : 0,
+    "numCallsInReplicationQueue" : 0,
+    "numCallsInPriorityQueue" : 0,
+    "numOpenConnections" : 1,
+    "numActiveHandler" : 0,
+    "receivedBytes" : 4139698632,
+    "exceptions.RegionMovedException" : 0,
+    "authenticationSuccesses" : 0,
+    "authorizationFailures" : 0,
+    "TotalCallTime_num_ops" : 4915495,
+    "TotalCallTime_min" : 2,
+    "TotalCallTime_max" : 2,
+    "TotalCallTime_mean" : 2,
+    "TotalCallTime_25th_percentile" : 2,
+    "TotalCallTime_median" : 2,
+    "TotalCallTime_75th_percentile" : 2,
+    "TotalCallTime_90th_percentile" : 2,
+    "TotalCallTime_95th_percentile" : 2,
+    "TotalCallTime_98th_percentile" : 2,
+    "TotalCallTime_99th_percentile" : 2,
+    "TotalCallTime_99.9th_percentile" : 2,
+    "TotalCallTime_TimeRangeCount_1-3" : 1,
+    "exceptions.RegionTooBusyException" : 0,
+    "exceptions.FailedSanityCheckException" : 0,
+    "ResponseSize_num_ops" : 4915495,
+    "ResponseSize_min" : 6,
+    "ResponseSize_max" : 6,
+    "ResponseSize_mean" : 6,
+    "ResponseSize_25th_percentile" : 6,
+    "ResponseSize_median" : 6,
+    "ResponseSize_75th_percentile" : 6,
+    "ResponseSize_90th_percentile" : 6,
+    "ResponseSize_95th_percentile" : 6,
+    "ResponseSize_98th_percentile" : 6,
+    "ResponseSize_99th_percentile" : 6,
+    "ResponseSize_99.9th_percentile" : 6,
+    "ResponseSize_SizeRangeCount_0-10" : 1,
+    "exceptions.UnknownScannerException" : 0,
+    "exceptions.OutOfOrderScannerNextException" : 0,
+    "exceptions" : 3,
+    "ProcessCallTime_num_ops" : 4915495,
+    "ProcessCallTime_min" : 0,
+    "ProcessCallTime_max" : 0,
+    "ProcessCallTime_mean" : 0,
+    "ProcessCallTime_25th_percentile" : 0,
+    "ProcessCallTime_median" : 0,
+    "ProcessCallTime_75th_percentile" : 0,
+    "ProcessCallTime_90th_percentile" : 0,
+    "ProcessCallTime_95th_percentile" : 0,
+    "ProcessCallTime_98th_percentile" : 0,
+    "ProcessCallTime_99th_percentile" : 0,
+    "ProcessCallTime_99.9th_percentile" : 0,
+    "ProcessCallTime_TimeRangeCount_0-1" : 1,
+    "exceptions.NotServingRegionException" : 3,
+    "authorizationSuccesses" : 569,
+    "RequestSize_num_ops" : 4915495,
+    "RequestSize_min" : 12,
+    "RequestSize_max" : 12,
+    "RequestSize_mean" : 12,
+    "RequestSize_25th_percentile" : 12,
+    "RequestSize_median" : 12,
+    "RequestSize_75th_percentile" : 12,
+    "RequestSize_90th_percentile" : 12,
+    "RequestSize_95th_percentile" : 12,
+    "RequestSize_98th_percentile" : 12,
+    "RequestSize_99th_percentile" : 12,
+    "RequestSize_99.9th_percentile" : 12,
+    "RequestSize_SizeRangeCount_10-100" : 1,
+    "sentBytes" : 38016986496,
+    "QueueCallTime_num_ops" : 4915495,
+    "QueueCallTime_min" : 2,
+    "QueueCallTime_max" : 2,
+    "QueueCallTime_mean" : 2,
+    "QueueCallTime_25th_percentile" : 2,
+    "QueueCallTime_median" : 2,
+    "QueueCallTime_75th_percentile" : 2,
+    "QueueCallTime_90th_percentile" : 2,
+    "QueueCallTime_95th_percentile" : 2,
+    "QueueCallTime_98th_percentile" : 2,
+    "QueueCallTime_99th_percentile" : 2,
+    "QueueCallTime_99.9th_percentile" : 2,
+    "QueueCallTime_TimeRangeCount_1-3" : 1,
+    "authenticationFailures" : 0
+  } ],
+  "beans" : [ {
+    "name" : "Hadoop:service=HBase,name=RegionServer,sub=Replication",
+    "modelerType" : "RegionServer,sub=Replication",
+    "tag.Context" : "regionserver",
+    "tag.Hostname" : "Node3",
+    "sink.appliedHFiles" : 0,
+    "sink.appliedOps" : 0,
+    "sink.ageOfLastAppliedOp" : 0,
+    "sink.appliedBatches" : 0
+  } ],
+  "beans" : [ {
+    "name" : "Hadoop:service=HBase,name=RegionServer,sub=Server",
+    "modelerType" : "RegionServer,sub=Server",
+    "tag.zookeeperQuorum" : "node2:2181,node1:2181,node4:2181",
+    "tag.serverName" : "node3,16020,1476672854077",
+    "tag.clusterId" : "66740f7d-7110-4827-9113-d2e3a199cf3b",
+    "tag.Context" : "regionserver",
+    "tag.Hostname" : "Node3",
+    "regionCount" : 34,
+    "storeCount" : 35,
+    "hlogFileCount" : 3,
+    "hlogFileSize" : 39710619,
+    "storeFileCount" : 20,
+    "memStoreSize" : 33280,
+    "storeFileSize" : 5342899618,
+    "maxStoreFileAge" : 607736709,
+    "minStoreFileAge" : 0,
+    "avgStoreFileAge" : 302783978,
+    "numReferenceFiles" : 0,
+    "regionServerStartTime" : 1476672854077,
+    "averageRegionSize" : 157145085,
+    "totalRequestCount" : 4916921,
+    "readRequestCount" : 17516,
+    "writeRequestCount" : 1519,
+    "rpcGetRequestCount" : 0,
+    "rpcScanRequestCount" : 2702757,
+    "rpcMultiRequestCount" : 2212676,
+    "rpcMutateRequestCount" : 0,
+    "checkMutateFailedCount" : 0,
+    "checkMutatePassedCount" : 0,
+    "storeFileIndexSize" : 647224,
+    "staticIndexSize" : 7163584,
+    "staticBloomSize" : 6504576,
+    "mutationsWithoutWALCount" : 0,
+    "mutationsWithoutWALSize" : 0,
+    "percentFilesLocal" : 100.0,
+    "percentFilesLocalSecondaryRegions" : 0.0,
+    "splitQueueLength" : 0,
+    "compactionQueueLength" : 0,
+    "smallCompactionQueueLength" : 0,
+    "largeCompactionQueueLength" : 0,
+    "compactionQueueLength" : 0,
+    "flushQueueLength" : 0,
+    "blockCacheFreeSize" : 1015840792,
+    "blockCacheCount" : 42,
+    "blockCacheSize" : 1540072,
+    "blockCacheHitCount" : 3326026,
+    "blockCacheHitCountPrimary" : 3326026,
+    "blockCacheMissCount" : 1570375,
+    "blockCacheMissCountPrimary" : 1570375,
+    "blockCacheEvictionCount" : 1336037,
+    "blockCacheEvictionCountPrimary" : 1336037,
+    "blockCacheCountHitPercent" : 67.92797446250916,
+    "blockCacheExpressHitPercent" : 70.550537109375,
+    "blockCacheDataMissCount" : 958291,
+    "blockCacheLeafIndexMissCount" : 119,
+    "blockCacheBloomChunkMissCount" : 0,
+    "blockCacheMetaMissCount" : 0,
+    "blockCacheRootIndexMissCount" : 0,
+    "blockCacheIntermediateIndexMissCount" : 0,
+    "blockCacheFileInfoMissCount" : 0,
+    "blockCacheGeneralBloomMetaMissCount" : 0,
+    "blockCacheDeleteFamilyBloomMissCount" : 0,
+    "blockCacheTrailerMissCount" : 0,
+    "blockCacheDataHitCount" : 1595952,
+    "blockCacheLeafIndexHitCount" : 1451635,
+    "blockCacheBloomChunkHitCount" : 0,
+    "blockCacheMetaHitCount" : 0,
+    "blockCacheRootIndexHitCount" : 0,
+    "blockCacheIntermediateIndexHitCount" : 0,
+    "blockCacheFileInfoHitCount" : 0,
+    "blockCacheGeneralBloomMetaHitCount" : 0,
+    "blockCacheDeleteFamilyBloomHitCount" : 0,
+    "blockCacheTrailerHitCount" : 0,
+    "updatesBlockedTime" : 0,
+    "flushedCellsCount" : 545,
+    "compactedCellsCount" : 17593,
+    "majorCompactedCellsCount" : 79375260,
+    "flushedCellsSize" : 129680,
+    "compactedCellsSize" : 2054032,
+    "majorCompactedCellsSize" : 5516362862,
+    "cellsCountCompactedFromMob" : 0,
+    "cellsCountCompactedToMob" : 0,
+    "cellsSizeCompactedFromMob" : 0,
+    "cellsSizeCompactedToMob" : 0,
+    "mobFlushCount" : 0,
+    "mobFlushedCellsCount" : 0,
+    "mobFlushedCellsSize" : 0,
+    "mobScanCellsCount" : 0,
+    "mobScanCellsSize" : 0,
+    "mobFileCacheCount" : 0,
+    "mobFileCacheAccessCount" : 0,
+    "mobFileCacheMissCount" : 0,
+    "mobFileCacheEvictedCount" : 0,
+    "mobFileCacheHitPercent" : 0,
+    "blockedRequestCount" : 0,
+    "MajorCompactionTime_num_ops" : 3,
+    "MajorCompactionTime_min" : 0,
+    "MajorCompactionTime_max" : 0,
+    "MajorCompactionTime_mean" : 0,
+    "MajorCompactionTime_25th_percentile" : 0,
+    "MajorCompactionTime_median" : 0,
+    "MajorCompactionTime_75th_percentile" : 0,
+    "MajorCompactionTime_90th_percentile" : 0,
+    "MajorCompactionTime_95th_percentile" : 0,
+    "MajorCompactionTime_98th_percentile" : 0,
+    "MajorCompactionTime_99th_percentile" : 0,
+    "MajorCompactionTime_99.9th_percentile" : 0,
+    "PauseTimeWithGc_num_ops" : 2,
+    "PauseTimeWithGc_min" : 0,
+    "PauseTimeWithGc_max" : 0,
+    "PauseTimeWithGc_mean" : 0,
+    "PauseTimeWithGc_25th_percentile" : 0,
+    "PauseTimeWithGc_median" : 0,
+    "PauseTimeWithGc_75th_percentile" : 0,
+    "PauseTimeWithGc_90th_percentile" : 0,
+    "PauseTimeWithGc_95th_percentile" : 0,
+    "PauseTimeWithGc_98th_percentile" : 0,
+    "PauseTimeWithGc_99th_percentile" : 0,
+    "PauseTimeWithGc_99.9th_percentile" : 0,
+    "compactedOutputBytes" : 9625336389,
+    "pauseWarnThresholdExceeded" : 1,
+    "ScanTime_num_ops" : 901427,
+    "ScanTime_min" : 0,
+    "ScanTime_max" : 0,
+    "ScanTime_mean" : 0,
+    "ScanTime_25th_percentile" : 0,
+    "ScanTime_median" : 0,
+    "ScanTime_75th_percentile" : 0,
+    "ScanTime_90th_percentile" : 0,
+    "ScanTime_95th_percentile" : 0,
+    "ScanTime_98th_percentile" : 0,
+    "ScanTime_99th_percentile" : 0,
+    "ScanTime_99.9th_percentile" : 0,
+    "Increment_num_ops" : 0,
+    "Increment_min" : 0,
+    "Increment_max" : 0,
+    "Increment_mean" : 0,
+    "Increment_25th_percentile" : 0,
+    "Increment_median" : 0,
+    "Increment_75th_percentile" : 0,
+    "Increment_90th_percentile" : 0,
+    "Increment_95th_percentile" : 0,
+    "Increment_98th_percentile" : 0,
+    "Increment_99th_percentile" : 0,
+    "Increment_99.9th_percentile" : 0,
+    "Delete_num_ops" : 10,
+    "Delete_min" : 0,
+    "Delete_max" : 0,
+    "Delete_mean" : 0,
+    "Delete_25th_percentile" : 0,
+    "Delete_median" : 0,
+    "Delete_75th_percentile" : 0,
+    "Delete_90th_percentile" : 0,
+    "Delete_95th_percentile" : 0,
+    "Delete_98th_percentile" : 0,
+    "Delete_99th_percentile" : 0,
+    "Delete_99.9th_percentile" : 0,
+    "splitRequestCount" : 1,
+    "FlushMemstoreSize_num_ops" : 115,
+    "FlushMemstoreSize_min" : 0,
+    "FlushMemstoreSize_max" : 0,
+    "FlushMemstoreSize_mean" : 0,
+    "FlushMemstoreSize_25th_percentile" : 0,
+    "FlushMemstoreSize_median" : 0,
+    "FlushMemstoreSize_75th_percentile" : 0,
+    "FlushMemstoreSize_90th_percentile" : 0,
+    "FlushMemstoreSize_95th_percentile" : 0,
+    "FlushMemstoreSize_98th_percentile" : 0,
+    "FlushMemstoreSize_99th_percentile" : 0,
+    "FlushMemstoreSize_99.9th_percentile" : 0,
+    "CompactionInputFileCount_num_ops" : 49,
+    "CompactionInputFileCount_min" : 0,
+    "CompactionInputFileCount_max" : 0,
+    "CompactionInputFileCount_mean" : 0,
+    "CompactionInputFileCount_25th_percentile" : 0,
+    "CompactionInputFileCount_median" : 0,
+    "CompactionInputFileCount_75th_percentile" : 0,
+    "CompactionInputFileCount_90th_percentile" : 0,
+    "CompactionInputFileCount_95th_percentile" : 0,
+    "CompactionInputFileCount_98th_percentile" : 0,
+    "CompactionInputFileCount_99th_percentile" : 0,
+    "CompactionInputFileCount_99.9th_percentile" : 0,
+    "CompactionTime_num_ops" : 49,
+    "CompactionTime_min" : 0,
+    "CompactionTime_max" : 0,
+    "CompactionTime_mean" : 0,
+    "CompactionTime_25th_percentile" : 0,
+    "CompactionTime_median" : 0,
+    "CompactionTime_75th_percentile" : 0,
+    "CompactionTime_90th_percentile" : 0,
+    "CompactionTime_95th_percentile" : 0,
+    "CompactionTime_98th_percentile" : 0,
+    "CompactionTime_99th_percentile" : 0,
+    "CompactionTime_99.9th_percentile" : 0,
+    "Get_num_ops" : 0,
+    "Get_min" : 0,
+    "Get_max" : 0,
+    "Get_mean" : 0,
+    "Get_25th_percentile" : 0,
+    "Get_median" : 0,
+    "Get_75th_percentile" : 0,
+    "Get_90th_percentile" : 0,
+    "Get_95th_percentile" : 0,
+    "Get_98th_percentile" : 0,
+    "Get_99th_percentile" : 0,
+    "Get_99.9th_percentile" : 0,
+    "MajorCompactionInputFileCount_num_ops" : 3,
+    "MajorCompactionInputFileCount_min" : 0,
+    "MajorCompactionInputFileCount_max" : 0,
+    "MajorCompactionInputFileCount_mean" : 0,
+    "MajorCompactionInputFileCount_25th_percentile" : 0,
+    "MajorCompactionInputFileCount_median" : 0,
+    "MajorCompactionInputFileCount_75th_percentile" : 0,
+    "MajorCompactionInputFileCount_90th_percentile" : 0,
+    "MajorCompactionInputFileCount_95th_percentile" : 0,
+    "MajorCompactionInputFileCount_98th_percentile" : 0,
+    "MajorCompactionInputFileCount_99th_percentile" : 0,
+    "MajorCompactionInputFileCount_99.9th_percentile" : 0,
+    "SplitTime_num_ops" : 1,
+    "SplitTime_min" : 0,
+    "SplitTime_max" : 0,
+    "SplitTime_mean" : 0,
+    "SplitTime_25th_percentile" : 0,
+    "SplitTime_median" : 0,
+    "SplitTime_75th_percentile" : 0,
+    "SplitTime_90th_percentile" : 0,
+    "SplitTime_95th_percentile" : 0,
+    "SplitTime_98th_percentile" : 0,
+    "SplitTime_99th_percentile" : 0,
+    "SplitTime_99.9th_percentile" : 0,
+    "MajorCompactionOutputSize_num_ops" : 3,
+    "MajorCompactionOutputSize_min" : 0,
+    "MajorCompactionOutputSize_max" : 0,
+    "MajorCompactionOutputSize_mean" : 0,
+    "MajorCompactionOutputSize_25th_percentile" : 0,
+    "MajorCompactionOutputSize_median" : 0,
+    "MajorCompactionOutputSize_75th_percentile" : 0,
+    "MajorCompactionOutputSize_90th_percentile" : 0,
+    "MajorCompactionOutputSize_95th_percentile" : 0,
+    "MajorCompactionOutputSize_98th_percentile" : 0,
+    "MajorCompactionOutputSize_99th_percentile" : 0,
+    "MajorCompactionOutputSize_99.9th_percentile" : 0,
+    "Mutate_num_ops" : 2212665,
+    "Mutate_min" : 0,
+    "Mutate_max" : 0,
+    "Mutate_mean" : 0,
+    "Mutate_25th_percentile" : 0,
+    "Mutate_median" : 0,
+    "Mutate_75th_percentile" : 0,
+    "Mutate_90th_percentile" : 0,
+    "Mutate_95th_percentile" : 0,
+    "Mutate_98th_percentile" : 0,
+    "Mutate_99th_percentile" : 0,
+    "Mutate_99.9th_percentile" : 0,
+    "majorCompactedInputBytes" : 2741335201,
+    "slowAppendCount" : 0,
+    "flushedOutputBytes" : 2358816457,
+    "CompactionOutputFileCount_num_ops" : 49,
+    "CompactionOutputFileCount_min" : 0,
+    "CompactionOutputFileCount_max" : 0,
+    "CompactionOutputFileCount_mean" : 0,
+    "CompactionOutputFileCount_25th_percentile" : 0,
+    "CompactionOutputFileCount_median" : 0,
+    "CompactionOutputFileCount_75th_percentile" : 0,
+    "CompactionOutputFileCount_90th_percentile" : 0,
+    "CompactionOutputFileCount_95th_percentile" : 0,
+    "CompactionOutputFileCount_98th_percentile" : 0,
+    "CompactionOutputFileCount_99th_percentile" : 0,
+    "CompactionOutputFileCount_99.9th_percentile" : 0,
+    "slowDeleteCount" : 0,
+    "Replay_num_ops" : 0,
+    "Replay_min" : 0,
+    "Replay_max" : 0,
+    "Replay_mean" : 0,
+    "Replay_25th_percentile" : 0,
+    "Replay_median" : 0,
+    "Replay_75th_percentile" : 0,
+    "Replay_90th_percentile" : 0,
+    "Replay_95th_percentile" : 0,
+    "Replay_98th_percentile" : 0,
+    "Replay_99th_percentile" : 0,
+    "Replay_99.9th_percentile" : 0,
+    "FlushTime_num_ops" : 115,
+    "FlushTime_min" : 0,
+    "FlushTime_max" : 0,
+    "FlushTime_mean" : 0,
+    "FlushTime_25th_percentile" : 0,
+    "FlushTime_median" : 0,
+    "FlushTime_75th_percentile" : 0,
+    "FlushTime_90th_percentile" : 0,
+    "FlushTime_95th_percentile" : 0,
+    "FlushTime_98th_percentile" : 0,
+    "FlushTime_99th_percentile" : 0,
+    "FlushTime_99.9th_percentile" : 0,
+    "MajorCompactionInputSize_num_ops" : 3,
+    "MajorCompactionInputSize_min" : 0,
+    "MajorCompactionInputSize_max" : 0,
+    "MajorCompactionInputSize_mean" : 0,
+    "MajorCompactionInputSize_25th_percentile" : 0,
+    "MajorCompactionInputSize_median" : 0,
+    "MajorCompactionInputSize_75th_percentile" : 0,
+    "MajorCompactionInputSize_90th_percentile" : 0,
+    "MajorCompactionInputSize_95th_percentile" : 0,
+    "MajorCompactionInputSize_98th_percentile" : 0,
+    "MajorCompactionInputSize_99th_percentile" : 0,
+    "MajorCompactionInputSize_99.9th_percentile" : 0,
+    "pauseInfoThresholdExceeded" : 3,
+    "splitSuccessCount" : 1,
+    "CompactionInputSize_num_ops" : 49,
+    "CompactionInputSize_min" : 0,
+    "CompactionInputSize_max" : 0,
+    "CompactionInputSize_mean" : 0,
+    "CompactionInputSize_25th_percentile" : 0,
+    "CompactionInputSize_median" : 0,
+    "CompactionInputSize_75th_percentile" : 0,
+    "CompactionInputSize_90th_percentile" : 0,
+    "CompactionInputSize_95th_percentile" : 0,
+    "CompactionInputSize_98th_percentile" : 0,
+    "CompactionInputSize_99th_percentile" : 0,
+    "CompactionInputSize_99.9th_percentile" : 0,
+    "MajorCompactionOutputFileCount_num_ops" : 3,
+    "MajorCompactionOutputFileCount_min" : 0,
+    "MajorCompactionOutputFileCount_max" : 0,
+    "MajorCompactionOutputFileCount_mean" : 0,
+    "MajorCompactionOutputFileCount_25th_percentile" : 0,
+    "MajorCompactionOutputFileCount_median" : 0,
+    "MajorCompactionOutputFileCount_75th_percentile" : 0,
+    "MajorCompactionOutputFileCount_90th_percentile" : 0,
+    "MajorCompactionOutputFileCount_95th_percentile" : 0,
+    "MajorCompactionOutputFileCount_98th_percentile" : 0,
+    "MajorCompactionOutputFileCount_99th_percentile" : 0,
+    "MajorCompactionOutputFileCount_99.9th_percentile" : 0,
+    "ScanSize_num_ops" : 901427,
+    "ScanSize_min" : 0,
+    "ScanSize_max" : 0,
+    "ScanSize_mean" : 0,
+    "ScanSize_25th_percentile" : 0,
+    "ScanSize_median" : 0,
+    "ScanSize_75th_percentile" : 0,
+    "ScanSize_90th_percentile" : 0,
+    "ScanSize_95th_percentile" : 0,
+    "ScanSize_98th_percentile" : 0,
+    "ScanSize_99th_percentile" : 0,
+    "ScanSize_99.9th_percentile" : 0,
+    "slowGetCount" : 0,
+    "flushedMemstoreBytes" : 13360174664,
+    "CompactionOutputSize_num_ops" : 49,
+    "CompactionOutputSize_min" : 0,
+    "CompactionOutputSize_max" : 0,
+    "CompactionOutputSize_mean" : 0,
+    "CompactionOutputSize_25th_percentile" : 0,
+    "CompactionOutputSize_median" : 0,
+    "CompactionOutputSize_75th_percentile" : 0,
+    "CompactionOutputSize_90th_percentile" : 0,
+    "CompactionOutputSize_95th_percentile" : 0,
+    "CompactionOutputSize_98th_percentile" : 0,
+    "CompactionOutputSize_99th_percentile" : 0,
+    "CompactionOutputSize_99.9th_percentile" : 0,
+    "majorCompactedOutputBytes" : 2632401053,
+    "PauseTimeWithoutGc_num_ops" : 2,
+    "PauseTimeWithoutGc_min" : 0,
+    "PauseTimeWithoutGc_max" : 0,
+    "PauseTimeWithoutGc_mean" : 0,
+    "PauseTimeWithoutGc_25th_percentile" : 0,
+    "PauseTimeWithoutGc_median" : 0,
+    "PauseTimeWithoutGc_75th_percentile" : 0,
+    "PauseTimeWithoutGc_90th_percentile" : 0,
+    "PauseTimeWithoutGc_95th_percentile" : 0,
+    "PauseTimeWithoutGc_98th_percentile" : 0,
+    "PauseTimeWithoutGc_99th_percentile" : 0,
+    "PauseTimeWithoutGc_99.9th_percentile" : 0,
+    "slowPutCount" : 1,
+    "slowIncrementCount" : 0,
+    "compactedInputBytes" : 10080655275,
+    "Append_num_ops" : 0,
+    "Append_min" : 0,
+    "Append_max" : 0,
+    "Append_mean" : 0,
+    "Append_25th_percentile" : 0,
+    "Append_median" : 0,
+    "Append_75th_percentile" : 0,
+    "Append_90th_percentile" : 0,
+    "Append_95th_percentile" : 0,
+    "Append_98th_percentile" : 0,
+    "Append_99th_percentile" : 0,
+    "Append_99.9th_percentile" : 0,
+    "FlushOutputSize_num_ops" : 115,
+    "FlushOutputSize_min" : 0,
+    "FlushOutputSize_max" : 0,
+    "FlushOutputSize_mean" : 0,
+    "FlushOutputSize_25th_percentile" : 0,
+    "FlushOutputSize_median" : 0,
+    "FlushOutputSize_75th_percentile" : 0,
+    "FlushOutputSize_90th_percentile" : 0,
+    "FlushOutputSize_95th_percentile" : 0,
+    "FlushOutputSize_98th_percentile" : 0,
+    "FlushOutputSize_99th_percentile" : 0,
+    "FlushOutputSize_99.9th_percentile" : 0
+  } ]
+}
+2016-10-17 18:44:20,361 INFO  [main-EventThread] regionserver.HRegionServer: STOPPED: regionserver:16020-0x357d089547c0003, quorum=node2:2181,node1:2181,node4:2181, baseZNode=/hbase-unsecure regionserver:16020-0x357d089547c0003 received expired from ZooKeeper, aborting
+2016-10-17 18:44:20,361 FATAL [main-EventThread] regionserver.HRegionServer: ABORTING region server node3,16020,1476672854077: regionserver:16020-0x357d089547c0003, quorum=node2:2181,node1:2181,node4:2181, baseZNode=/hbase-unsecure regionserver:16020-0x357d089547c0003 received expired from ZooKeeper, aborting
+org.apache.zookeeper.KeeperException$SessionExpiredException: KeeperErrorCode = Session expired
+	at org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher.connectionEvent(ZooKeeperWatcher.java:585)
+	at org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher.process(ZooKeeperWatcher.java:517)
+	at org.apache.hadoop.hbase.zookeeper.PendingWatcher.process(PendingWatcher.java:40)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:534)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:510)
+2016-10-17 18:44:20,362 FATAL [main-EventThread] regionserver.HRegionServer: RegionServer abort: loaded coprocessors are: [org.apache.hadoop.hbase.security.access.SecureBulkLoadEndpoint, org.apache.hadoop.hbase.coprocessor.MultiRowMutationEndpoint]
+2016-10-17 18:44:20,363 INFO  [main-EventThread] regionserver.HRegionServer: Dump of metrics as JSON on abort: {
+  "beans" : [ {
+    "name" : "java.lang:type=Memory",
+    "modelerType" : "sun.management.MemoryImpl",
+    "Verbose" : true,
+    "ObjectPendingFinalizationCount" : 0,
+    "NonHeapMemoryUsage" : {
+      "committed" : 113217536,
+      "init" : 2555904,
+      "max" : -1,
+      "used" : 97383544
+    },
+    "HeapMemoryUsage" : {
+      "committed" : 2543452160,
+      "init" : 2621440000,
+      "max" : 2543452160,
+      "used" : 1628191584
+    },
+    "ObjectName" : "java.lang:type=Memory"
+  } ],
+  "beans" : [ {
+    "name" : "Hadoop:service=HBase,name=RegionServer,sub=IPC",
+    "modelerType" : "RegionServer,sub=IPC",
+    "tag.Context" : "regionserver",
+    "tag.Hostname" : "Node3",
+    "queueSize" : 0,
+    "numCallsInGeneralQueue" : 0,
+    "numCallsInReplicationQueue" : 0,
+    "numCallsInPriorityQueue" : 0,
+    "numOpenConnections" : 1,
+    "numActiveHandler" : 0,
+    "receivedBytes" : 4139698632,
+    "exceptions.RegionMovedException" : 0,
+    "authenticationSuccesses" : 0,
+    "authorizationFailures" : 0,
+    "TotalCallTime_num_ops" : 4915495,
+    "TotalCallTime_min" : 2,
+    "TotalCallTime_max" : 2,
+    "TotalCallTime_mean" : 2,
+    "TotalCallTime_25th_percentile" : 2,
+    "TotalCallTime_median" : 2,
+    "TotalCallTime_75th_percentile" : 2,
+    "TotalCallTime_90th_percentile" : 2,
+    "TotalCallTime_95th_percentile" : 2,
+    "TotalCallTime_98th_percentile" : 2,
+    "TotalCallTime_99th_percentile" : 2,
+    "TotalCallTime_99.9th_percentile" : 2,
+    "TotalCallTime_TimeRangeCount_1-3" : 1,
+    "exceptions.RegionTooBusyException" : 0,
+    "exceptions.FailedSanityCheckException" : 0,
+    "ResponseSize_num_ops" : 4915495,
+    "ResponseSize_min" : 6,
+    "ResponseSize_max" : 6,
+    "ResponseSize_mean" : 6,
+    "ResponseSize_25th_percentile" : 6,
+    "ResponseSize_median" : 6,
+    "ResponseSize_75th_percentile" : 6,
+    "ResponseSize_90th_percentile" : 6,
+    "ResponseSize_95th_percentile" : 6,
+    "ResponseSize_98th_percentile" : 6,
+    "ResponseSize_99th_percentile" : 6,
+    "ResponseSize_99.9th_percentile" : 6,
+    "ResponseSize_SizeRangeCount_0-10" : 1,
+    "exceptions.UnknownScannerException" : 0,
+    "exceptions.OutOfOrderScannerNextException" : 0,
+    "exceptions" : 3,
+    "ProcessCallTime_num_ops" : 4915495,
+    "ProcessCallTime_min" : 0,
+    "ProcessCallTime_max" : 0,
+    "ProcessCallTime_mean" : 0,
+    "ProcessCallTime_25th_percentile" : 0,
+    "ProcessCallTime_median" : 0,
+    "ProcessCallTime_75th_percentile" : 0,
+    "ProcessCallTime_90th_percentile" : 0,
+    "ProcessCallTime_95th_percentile" : 0,
+    "ProcessCallTime_98th_percentile" : 0,
+    "ProcessCallTime_99th_percentile" : 0,
+    "ProcessCallTime_99.9th_percentile" : 0,
+    "ProcessCallTime_TimeRangeCount_0-1" : 1,
+    "exceptions.NotServingRegionException" : 3,
+    "authorizationSuccesses" : 569,
+    "RequestSize_num_ops" : 4915495,
+    "RequestSize_min" : 12,
+    "RequestSize_max" : 12,
+    "RequestSize_mean" : 12,
+    "RequestSize_25th_percentile" : 12,
+    "RequestSize_median" : 12,
+    "RequestSize_75th_percentile" : 12,
+    "RequestSize_90th_percentile" : 12,
+    "RequestSize_95th_percentile" : 12,
+    "RequestSize_98th_percentile" : 12,
+    "RequestSize_99th_percentile" : 12,
+    "RequestSize_99.9th_percentile" : 12,
+    "RequestSize_SizeRangeCount_10-100" : 1,
+    "sentBytes" : 38016986496,
+    "QueueCallTime_num_ops" : 4915495,
+    "QueueCallTime_min" : 2,
+    "QueueCallTime_max" : 2,
+    "QueueCallTime_mean" : 2,
+    "QueueCallTime_25th_percentile" : 2,
+    "QueueCallTime_median" : 2,
+    "QueueCallTime_75th_percentile" : 2,
+    "QueueCallTime_90th_percentile" : 2,
+    "QueueCallTime_95th_percentile" : 2,
+    "QueueCallTime_98th_percentile" : 2,
+    "QueueCallTime_99th_percentile" : 2,
+    "QueueCallTime_99.9th_percentile" : 2,
+    "QueueCallTime_TimeRangeCount_1-3" : 1,
+    "authenticationFailures" : 0
+  } ],
+  "beans" : [ {
+    "name" : "Hadoop:service=HBase,name=RegionServer,sub=Replication",
+    "modelerType" : "RegionServer,sub=Replication",
+    "tag.Context" : "regionserver",
+    "tag.Hostname" : "Node3",
+    "sink.appliedHFiles" : 0,
+    "sink.appliedOps" : 0,
+    "sink.ageOfLastAppliedOp" : 0,
+    "sink.appliedBatches" : 0
+  } ],
+  "beans" : [ {
+    "name" : "Hadoop:service=HBase,name=RegionServer,sub=Server",
+    "modelerType" : "RegionServer,sub=Server",
+    "tag.zookeeperQuorum" : "node2:2181,node1:2181,node4:2181",
+    "tag.serverName" : "node3,16020,1476672854077",
+    "tag.clusterId" : "66740f7d-7110-4827-9113-d2e3a199cf3b",
+    "tag.Context" : "regionserver",
+    "tag.Hostname" : "Node3",
+    "regionCount" : 34,
+    "storeCount" : 35,
+    "hlogFileCount" : 3,
+    "hlogFileSize" : 39710619,
+    "storeFileCount" : 20,
+    "memStoreSize" : 33280,
+    "storeFileSize" : 5342899618,
+    "maxStoreFileAge" : 607736709,
+    "minStoreFileAge" : 0,
+    "avgStoreFileAge" : 302783978,
+    "numReferenceFiles" : 0,
+    "regionServerStartTime" : 1476672854077,
+    "averageRegionSize" : 157145085,
+    "totalRequestCount" : 4916921,
+    "readRequestCount" : 17516,
+    "writeRequestCount" : 1519,
+    "rpcGetRequestCount" : 0,
+    "rpcScanRequestCount" : 2702757,
+    "rpcMultiRequestCount" : 2212676,
+    "rpcMutateRequestCount" : 0,
+    "checkMutateFailedCount" : 0,
+    "checkMutatePassedCount" : 0,
+    "storeFileIndexSize" : 647224,
+    "staticIndexSize" : 7163584,
+    "staticBloomSize" : 6504576,
+    "mutationsWithoutWALCount" : 0,
+    "mutationsWithoutWALSize" : 0,
+    "percentFilesLocal" : 100.0,
+    "percentFilesLocalSecondaryRegions" : 0.0,
+    "splitQueueLength" : 0,
+    "compactionQueueLength" : 0,
+    "smallCompactionQueueLength" : 0,
+    "largeCompactionQueueLength" : 0,
+    "compactionQueueLength" : 0,
+    "flushQueueLength" : 0,
+    "blockCacheFreeSize" : 1015840792,
+    "blockCacheCount" : 42,
+    "blockCacheSize" : 1540072,
+    "blockCacheHitCount" : 3326026,
+    "blockCacheHitCountPrimary" : 3326026,
+    "blockCacheMissCount" : 1570375,
+    "blockCacheMissCountPrimary" : 1570375,
+    "blockCacheEvictionCount" : 1336037,
+    "blockCacheEvictionCountPrimary" : 1336037,
+    "blockCacheCountHitPercent" : 67.92797446250916,
+    "blockCacheExpressHitPercent" : 70.550537109375,
+    "blockCacheDataMissCount" : 958291,
+    "blockCacheLeafIndexMissCount" : 119,
+    "blockCacheBloomChunkMissCount" : 0,
+    "blockCacheMetaMissCount" : 0,
+    "blockCacheRootIndexMissCount" : 0,
+    "blockCacheIntermediateIndexMissCount" : 0,
+    "blockCacheFileInfoMissCount" : 0,
+    "blockCacheGeneralBloomMetaMissCount" : 0,
+    "blockCacheDeleteFamilyBloomMissCount" : 0,
+    "blockCacheTrailerMissCount" : 0,
+    "blockCacheDataHitCount" : 1595952,
+    "blockCacheLeafIndexHitCount" : 1451635,
+    "blockCacheBloomChunkHitCount" : 0,
+    "blockCacheMetaHitCount" : 0,
+    "blockCacheRootIndexHitCount" : 0,
+    "blockCacheIntermediateIndexHitCount" : 0,
+    "blockCacheFileInfoHitCount" : 0,
+    "blockCacheGeneralBloomMetaHitCount" : 0,
+    "blockCacheDeleteFamilyBloomHitCount" : 0,
+    "blockCacheTrailerHitCount" : 0,
+    "updatesBlockedTime" : 0,
+    "flushedCellsCount" : 545,
+    "compactedCellsCount" : 17593,
+    "majorCompactedCellsCount" : 79375260,
+    "flushedCellsSize" : 129680,
+    "compactedCellsSize" : 2054032,
+    "majorCompactedCellsSize" : 5516362862,
+    "cellsCountCompactedFromMob" : 0,
+    "cellsCountCompactedToMob" : 0,
+    "cellsSizeCompactedFromMob" : 0,
+    "cellsSizeCompactedToMob" : 0,
+    "mobFlushCount" : 0,
+    "mobFlushedCellsCount" : 0,
+    "mobFlushedCellsSize" : 0,
+    "mobScanCellsCount" : 0,
+    "mobScanCellsSize" : 0,
+    "mobFileCacheCount" : 0,
+    "mobFileCacheAccessCount" : 0,
+    "mobFileCacheMissCount" : 0,
+    "mobFileCacheEvictedCount" : 0,
+    "mobFileCacheHitPercent" : 0,
+    "blockedRequestCount" : 0,
+    "MajorCompactionTime_num_ops" : 3,
+    "MajorCompactionTime_min" : 0,
+    "MajorCompactionTime_max" : 0,
+    "MajorCompactionTime_mean" : 0,
+    "MajorCompactionTime_25th_percentile" : 0,
+    "MajorCompactionTime_median" : 0,
+    "MajorCompactionTime_75th_percentile" : 0,
+    "MajorCompactionTime_90th_percentile" : 0,
+    "MajorCompactionTime_95th_percentile" : 0,
+    "MajorCompactionTime_98th_percentile" : 0,
+    "MajorCompactionTime_99th_percentile" : 0,
+    "MajorCompactionTime_99.9th_percentile" : 0,
+    "PauseTimeWithGc_num_ops" : 2,
+    "PauseTimeWithGc_min" : 0,
+    "PauseTimeWithGc_max" : 0,
+    "PauseTimeWithGc_mean" : 0,
+    "PauseTimeWithGc_25th_percentile" : 0,
+    "PauseTimeWithGc_median" : 0,
+    "PauseTimeWithGc_75th_percentile" : 0,
+    "PauseTimeWithGc_90th_percentile" : 0,
+    "PauseTimeWithGc_95th_percentile" : 0,
+    "PauseTimeWithGc_98th_percentile" : 0,
+    "PauseTimeWithGc_99th_percentile" : 0,
+    "PauseTimeWithGc_99.9th_percentile" : 0,
+    "compactedOutputBytes" : 9625336389,
+    "pauseWarnThresholdExceeded" : 1,
+    "ScanTime_num_ops" : 901427,
+    "ScanTime_min" : 0,
+    "ScanTime_max" : 0,
+    "ScanTime_mean" : 0,
+    "ScanTime_25th_percentile" : 0,
+    "ScanTime_median" : 0,
+    "ScanTime_75th_percentile" : 0,
+    "ScanTime_90th_percentile" : 0,
+    "ScanTime_95th_percentile" : 0,
+    "ScanTime_98th_percentile" : 0,
+    "ScanTime_99th_percentile" : 0,
+    "ScanTime_99.9th_percentile" : 0,
+    "Increment_num_ops" : 0,
+    "Increment_min" : 0,
+    "Increment_max" : 0,
+    "Increment_mean" : 0,
+    "Increment_25th_percentile" : 0,
+    "Increment_median" : 0,
+    "Increment_75th_percentile" : 0,
+    "Increment_90th_percentile" : 0,
+    "Increment_95th_percentile" : 0,
+    "Increment_98th_percentile" : 0,
+    "Increment_99th_percentile" : 0,
+    "Increment_99.9th_percentile" : 0,
+    "Delete_num_ops" : 10,
+    "Delete_min" : 0,
+    "Delete_max" : 0,
+    "Delete_mean" : 0,
+    "Delete_25th_percentile" : 0,
+    "Delete_median" : 0,
+    "Delete_75th_percentile" : 0,
+    "Delete_90th_percentile" : 0,
+    "Delete_95th_percentile" : 0,
+    "Delete_98th_percentile" : 0,
+    "Delete_99th_percentile" : 0,
+    "Delete_99.9th_percentile" : 0,
+    "splitRequestCount" : 1,
+    "FlushMemstoreSize_num_ops" : 115,
+    "FlushMemstoreSize_min" : 0,
+    "FlushMemstoreSize_max" : 0,
+    "FlushMemstoreSize_mean" : 0,
+    "FlushMemstoreSize_25th_percentile" : 0,
+    "FlushMemstoreSize_median" : 0,
+    "FlushMemstoreSize_75th_percentile" : 0,
+    "FlushMemstoreSize_90th_percentile" : 0,
+    "FlushMemstoreSize_95th_percentile" : 0,
+    "FlushMemstoreSize_98th_percentile" : 0,
+    "FlushMemstoreSize_99th_percentile" : 0,
+    "FlushMemstoreSize_99.9th_percentile" : 0,
+    "CompactionInputFileCount_num_ops" : 49,
+    "CompactionInputFileCount_min" : 0,
+    "CompactionInputFileCount_max" : 0,
+    "CompactionInputFileCount_mean" : 0,
+    "CompactionInputFileCount_25th_percentile" : 0,
+    "CompactionInputFileCount_median" : 0,
+    "CompactionInputFileCount_75th_percentile" : 0,
+    "CompactionInputFileCount_90th_percentile" : 0,
+    "CompactionInputFileCount_95th_percentile" : 0,
+    "CompactionInputFileCount_98th_percentile" : 0,
+    "CompactionInputFileCount_99th_percentile" : 0,
+    "CompactionInputFileCount_99.9th_percentile" : 0,
+    "CompactionTime_num_ops" : 49,
+    "CompactionTime_min" : 0,
+    "CompactionTime_max" : 0,
+    "CompactionTime_mean" : 0,
+    "CompactionTime_25th_percentile" : 0,
+    "CompactionTime_median" : 0,
+    "CompactionTime_75th_percentile" : 0,
+    "CompactionTime_90th_percentile" : 0,
+    "CompactionTime_95th_percentile" : 0,
+    "CompactionTime_98th_percentile" : 0,
+    "CompactionTime_99th_percentile" : 0,
+    "CompactionTime_99.9th_percentile" : 0,
+    "Get_num_ops" : 0,
+    "Get_min" : 0,
+    "Get_max" : 0,
+    "Get_mean" : 0,
+    "Get_25th_percentile" : 0,
+    "Get_median" : 0,
+    "Get_75th_percentile" : 0,
+    "Get_90th_percentile" : 0,
+    "Get_95th_percentile" : 0,
+    "Get_98th_percentile" : 0,
+    "Get_99th_percentile" : 0,
+    "Get_99.9th_percentile" : 0,
+    "MajorCompactionInputFileCount_num_ops" : 3,
+    "MajorCompactionInputFileCount_min" : 0,
+    "MajorCompactionInputFileCount_max" : 0,
+    "MajorCompactionInputFileCount_mean" : 0,
+    "MajorCompactionInputFileCount_25th_percentile" : 0,
+    "MajorCompactionInputFileCount_median" : 0,
+    "MajorCompactionInputFileCount_75th_percentile" : 0,
+    "MajorCompactionInputFileCount_90th_percentile" : 0,
+    "MajorCompactionInputFileCount_95th_percentile" : 0,
+    "MajorCompactionInputFileCount_98th_percentile" : 0,
+    "MajorCompactionInputFileCount_99th_percentile" : 0,
+    "MajorCompactionInputFileCount_99.9th_percentile" : 0,
+    "SplitTime_num_ops" : 1,
+    "SplitTime_min" : 0,
+    "SplitTime_max" : 0,
+    "SplitTime_mean" : 0,
+    "SplitTime_25th_percentile" : 0,
+    "SplitTime_median" : 0,
+    "SplitTime_75th_percentile" : 0,
+    "SplitTime_90th_percentile" : 0,
+    "SplitTime_95th_percentile" : 0,
+    "SplitTime_98th_percentile" : 0,
+    "SplitTime_99th_percentile" : 0,
+    "SplitTime_99.9th_percentile" : 0,
+    "MajorCompactionOutputSize_num_ops" : 3,
+    "MajorCompactionOutputSize_min" : 0,
+    "MajorCompactionOutputSize_max" : 0,
+    "MajorCompactionOutputSize_mean" : 0,
+    "MajorCompactionOutputSize_25th_percentile" : 0,
+    "MajorCompactionOutputSize_median" : 0,
+    "MajorCompactionOutputSize_75th_percentile" : 0,
+    "MajorCompactionOutputSize_90th_percentile" : 0,
+    "MajorCompactionOutputSize_95th_percentile" : 0,
+    "MajorCompactionOutputSize_98th_percentile" : 0,
+    "MajorCompactionOutputSize_99th_percentile" : 0,
+    "MajorCompactionOutputSize_99.9th_percentile" : 0,
+    "Mutate_num_ops" : 2212665,
+    "Mutate_min" : 0,
+    "Mutate_max" : 0,
+    "Mutate_mean" : 0,
+    "Mutate_25th_percentile" : 0,
+    "Mutate_median" : 0,
+    "Mutate_75th_percentile" : 0,
+    "Mutate_90th_percentile" : 0,
+    "Mutate_95th_percentile" : 0,
+    "Mutate_98th_percentile" : 0,
+    "Mutate_99th_percentile" : 0,
+    "Mutate_99.9th_percentile" : 0,
+    "majorCompactedInputBytes" : 2741335201,
+    "slowAppendCount" : 0,
+    "flushedOutputBytes" : 2358816457,
+    "CompactionOutputFileCount_num_ops" : 49,
+    "CompactionOutputFileCount_min" : 0,
+    "CompactionOutputFileCount_max" : 0,
+    "CompactionOutputFileCount_mean" : 0,
+    "CompactionOutputFileCount_25th_percentile" : 0,
+    "CompactionOutputFileCount_median" : 0,
+    "CompactionOutputFileCount_75th_percentile" : 0,
+    "CompactionOutputFileCount_90th_percentile" : 0,
+    "CompactionOutputFileCount_95th_percentile" : 0,
+    "CompactionOutputFileCount_98th_percentile" : 0,
+    "CompactionOutputFileCount_99th_percentile" : 0,
+    "CompactionOutputFileCount_99.9th_percentile" : 0,
+    "slowDeleteCount" : 0,
+    "Replay_num_ops" : 0,
+    "Replay_min" : 0,
+    "Replay_max" : 0,
+    "Replay_mean" : 0,
+    "Replay_25th_percentile" : 0,
+    "Replay_median" : 0,
+    "Replay_75th_percentile" : 0,
+    "Replay_90th_percentile" : 0,
+    "Replay_95th_percentile" : 0,
+    "Replay_98th_percentile" : 0,
+    "Replay_99th_percentile" : 0,
+    "Replay_99.9th_percentile" : 0,
+    "FlushTime_num_ops" : 115,
+    "FlushTime_min" : 0,
+    "FlushTime_max" : 0,
+    "FlushTime_mean" : 0,
+    "FlushTime_25th_percentile" : 0,
+    "FlushTime_median" : 0,
+    "FlushTime_75th_percentile" : 0,
+    "FlushTime_90th_percentile" : 0,
+    "FlushTime_95th_percentile" : 0,
+    "FlushTime_98th_percentile" : 0,
+    "FlushTime_99th_percentile" : 0,
+    "FlushTime_99.9th_percentile" : 0,
+    "MajorCompactionInputSize_num_ops" : 3,
+    "MajorCompactionInputSize_min" : 0,
+    "MajorCompactionInputSize_max" : 0,
+    "MajorCompactionInputSize_mean" : 0,
+    "MajorCompactionInputSize_25th_percentile" : 0,
+    "MajorCompactionInputSize_median" : 0,
+    "MajorCompactionInputSize_75th_percentile" : 0,
+    "MajorCompactionInputSize_90th_percentile" : 0,
+    "MajorCompactionInputSize_95th_percentile" : 0,
+    "MajorCompactionInputSize_98th_percentile" : 0,
+    "MajorCompactionInputSize_99th_percentile" : 0,
+    "MajorCompactionInputSize_99.9th_percentile" : 0,
+    "pauseInfoThresholdExceeded" : 3,
+    "splitSuccessCount" : 1,
+    "CompactionInputSize_num_ops" : 49,
+    "CompactionInputSize_min" : 0,
+    "CompactionInputSize_max" : 0,
+    "CompactionInputSize_mean" : 0,
+    "CompactionInputSize_25th_percentile" : 0,
+    "CompactionInputSize_median" : 0,
+    "CompactionInputSize_75th_percentile" : 0,
+    "CompactionInputSize_90th_percentile" : 0,
+    "CompactionInputSize_95th_percentile" : 0,
+    "CompactionInputSize_98th_percentile" : 0,
+    "CompactionInputSize_99th_percentile" : 0,
+    "CompactionInputSize_99.9th_percentile" : 0,
+    "MajorCompactionOutputFileCount_num_ops" : 3,
+    "MajorCompactionOutputFileCount_min" : 0,
+    "MajorCompactionOutputFileCount_max" : 0,
+    "MajorCompactionOutputFileCount_mean" : 0,
+    "MajorCompactionOutputFileCount_25th_percentile" : 0,
+    "MajorCompactionOutputFileCount_median" : 0,
+    "MajorCompactionOutputFileCount_75th_percentile" : 0,
+    "MajorCompactionOutputFileCount_90th_percentile" : 0,
+    "MajorCompactionOutputFileCount_95th_percentile" : 0,
+    "MajorCompactionOutputFileCount_98th_percentile" : 0,
+    "MajorCompactionOutputFileCount_99th_percentile" : 0,
+    "MajorCompactionOutputFileCount_99.9th_percentile" : 0,
+    "ScanSize_num_ops" : 901427,
+    "ScanSize_min" : 0,
+    "ScanSize_max" : 0,
+    "ScanSize_mean" : 0,
+    "ScanSize_25th_percentile" : 0,
+    "ScanSize_median" : 0,
+    "ScanSize_75th_percentile" : 0,
+    "ScanSize_90th_percentile" : 0,
+    "ScanSize_95th_percentile" : 0,
+    "ScanSize_98th_percentile" : 0,
+    "ScanSize_99th_percentile" : 0,
+    "ScanSize_99.9th_percentile" : 0,
+    "slowGetCount" : 0,
+    "flushedMemstoreBytes" : 13360174664,
+    "CompactionOutputSize_num_ops" : 49,
+    "CompactionOutputSize_min" : 0,
+    "CompactionOutputSize_max" : 0,
+    "CompactionOutputSize_mean" : 0,
+    "CompactionOutputSize_25th_percentile" : 0,
+    "CompactionOutputSize_median" : 0,
+    "CompactionOutputSize_75th_percentile" : 0,
+    "CompactionOutputSize_90th_percentile" : 0,
+    "CompactionOutputSize_95th_percentile" : 0,
+    "CompactionOutputSize_98th_percentile" : 0,
+    "CompactionOutputSize_99th_percentile" : 0,
+    "CompactionOutputSize_99.9th_percentile" : 0,
+    "majorCompactedOutputBytes" : 2632401053,
+    "PauseTimeWithoutGc_num_ops" : 2,
+    "PauseTimeWithoutGc_min" : 0,
+    "PauseTimeWithoutGc_max" : 0,
+    "PauseTimeWithoutGc_mean" : 0,
+    "PauseTimeWithoutGc_25th_percentile" : 0,
+    "PauseTimeWithoutGc_median" : 0,
+    "PauseTimeWithoutGc_75th_percentile" : 0,
+    "PauseTimeWithoutGc_90th_percentile" : 0,
+    "PauseTimeWithoutGc_95th_percentile" : 0,
+    "PauseTimeWithoutGc_98th_percentile" : 0,
+    "PauseTimeWithoutGc_99th_percentile" : 0,
+    "PauseTimeWithoutGc_99.9th_percentile" : 0,
+    "slowPutCount" : 1,
+    "slowIncrementCount" : 0,
+    "compactedInputBytes" : 10080655275,
+    "Append_num_ops" : 0,
+    "Append_min" : 0,
+    "Append_max" : 0,
+    "Append_mean" : 0,
+    "Append_25th_percentile" : 0,
+    "Append_median" : 0,
+    "Append_75th_percentile" : 0,
+    "Append_90th_percentile" : 0,
+    "Append_95th_percentile" : 0,
+    "Append_98th_percentile" : 0,
+    "Append_99th_percentile" : 0,
+    "Append_99.9th_percentile" : 0,
+    "FlushOutputSize_num_ops" : 115,
+    "FlushOutputSize_min" : 0,
+    "FlushOutputSize_max" : 0,
+    "FlushOutputSize_mean" : 0,
+    "FlushOutputSize_25th_percentile" : 0,
+    "FlushOutputSize_median" : 0,
+    "FlushOutputSize_75th_percentile" : 0,
+    "FlushOutputSize_90th_percentile" : 0,
+    "FlushOutputSize_95th_percentile" : 0,
+    "FlushOutputSize_98th_percentile" : 0,
+    "FlushOutputSize_99th_percentile" : 0,
+    "FlushOutputSize_99.9th_percentile" : 0
+  } ]
+}
+2016-10-17 18:44:20,370 INFO  [regionserver/Node3/172.17.6.103:16020] regionserver.SplitLogWorker: Sending interrupt to stop the worker thread
+2016-10-17 18:44:20,371 INFO  [regionserver/Node3/172.17.6.103:16020] regionserver.HRegionServer: Stopping infoServer
+2016-10-17 18:44:20,372 INFO  [main-EventThread] zookeeper.ClientCnxn: EventThread shut down
+2016-10-17 18:44:20,422 INFO  [SplitLogWorker-Node3:16020] regionserver.SplitLogWorker: SplitLogWorker interrupted. Exiting. 
+2016-10-17 18:44:20,441 INFO  [SplitLogWorker-Node3:16020] regionserver.SplitLogWorker: SplitLogWorker node3,16020,1476672854077 exiting
+2016-10-17 18:44:20,487 INFO  [regionserver/Node3/172.17.6.103:16020] mortbay.log: Stopped SelectChannelConnector@0.0.0.0:16030
+2016-10-17 18:44:20,593 INFO  [regionserver/Node3/172.17.6.103:16020] regionserver.HeapMemoryManager: Stoping HeapMemoryTuner chore.
+2016-10-17 18:44:20,593 INFO  [regionserver/Node3/172.17.6.103:16020] flush.RegionServerFlushTableProcedureManager: Stopping region server flush procedure manager abruptly.
+2016-10-17 18:44:20,594 INFO  [regionserver/Node3/172.17.6.103:16020] regionserver.LogRollRegionServerProcedureManager: Stopping RegionServerBackupManager abruptly.
+2016-10-17 18:44:20,594 INFO  [regionserver/Node3/172.17.6.103:16020] snapshot.RegionServerSnapshotManager: Stopping RegionServerSnapshotManager abruptly.
+2016-10-17 18:44:20,594 INFO  [regionserver/Node3/172.17.6.103:16020] regionserver.HRegionServer: aborting server node3,16020,1476672854077
+2016-10-17 18:44:20,594 INFO  [regionserver/Node3/172.17.6.103:16020] client.ConnectionManager$HConnectionImplementation: Closing zookeeper sessionid=0x257d08954810003
+2016-10-17 18:44:20,595 INFO  [MemStoreFlusher.1] regionserver.MemStoreFlusher: MemStoreFlusher.1 exiting
+2016-10-17 18:44:20,600 INFO  [MemStoreFlusher.0] regionserver.MemStoreFlusher: MemStoreFlusher.0 exiting
+2016-10-17 18:44:20,665 INFO  [StoreCloserThread-usertable,user5142835197696697420,1476089767666.4027f180fc9e24378d3cdcbbd27d1565.-1] regionserver.HStore: Closed f1
+2016-10-17 18:44:20,681 INFO  [StoreCloserThread-is:incidents,666182IyqR,1476169653327.a3ce096bd21d38be602614d65100c4d7.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,681 INFO  [RS_CLOSE_REGION-Node3:16020-2] regionserver.HRegion: Closed is:incidents,666182IyqR,1476169653327.a3ce096bd21d38be602614d65100c4d7.
+2016-10-17 18:44:20,683 INFO  [StoreCloserThread-ns1:host_log,2,1476693480197.9fb819d1f1ec07cb8bee0c1ab0790607.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,683 INFO  [RS_CLOSE_REGION-Node3:16020-2] regionserver.HRegion: Closed ns1:host_log,2,1476693480197.9fb819d1f1ec07cb8bee0c1ab0790607.
+2016-10-17 18:44:20,684 INFO  [StoreCloserThread-is:incidents_10000w,5j\xCE,1476166366287.dea8d58068fb95e875be1aa634fbe92f.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,684 INFO  [RS_CLOSE_REGION-Node3:16020-2] regionserver.HRegion: Closed is:incidents_10000w,5j\xCE,1476166366287.dea8d58068fb95e875be1aa634fbe92f.
+2016-10-17 18:44:20,684 INFO  [StoreCloserThread-ns1:host_metric,9,1476006269984.621c874501e6c22aded01ff9cf16830f.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,684 INFO  [RS_CLOSE_REGION-Node3:16020-2] regionserver.HRegion: Closed ns1:host_metric,9,1476006269984.621c874501e6c22aded01ff9cf16830f.
+2016-10-17 18:44:20,685 INFO  [StoreCloserThread-is:incidents_10000w,8`\xA3,1476166366287.d200da7af293477a6aa2d2f2371610d0.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,685 INFO  [RS_CLOSE_REGION-Node3:16020-2] regionserver.HRegion: Closed is:incidents_10000w,8`\xA3,1476166366287.d200da7af293477a6aa2d2f2371610d0.
+2016-10-17 18:44:20,686 INFO  [StoreCloserThread-is:incidents_500w_2,4&\x05,1476242848798.0dc3bc85952a4b4cbb866c3add903c0b.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,686 INFO  [RS_CLOSE_REGION-Node3:16020-2] regionserver.HRegion: Closed is:incidents_500w_2,4&\x05,1476242848798.0dc3bc85952a4b4cbb866c3add903c0b.
+2016-10-17 18:44:20,687 INFO  [RS_CLOSE_REGION-Node3:16020-0] regionserver.HRegion: Closed usertable,user5142835197696697420,1476089767666.4027f180fc9e24378d3cdcbbd27d1565.
+2016-10-17 18:44:20,690 INFO  [StoreCloserThread-ns1:host_metric,,1476006269984.340ebc650e954ddee6308e71e57154d0.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,690 INFO  [RS_CLOSE_REGION-Node3:16020-0] regionserver.HRegion: Closed ns1:host_metric,,1476006269984.340ebc650e954ddee6308e71e57154d0.
+2016-10-17 18:44:20,691 INFO  [StoreCloserThread-is:incidents,502887jzVw,1476179975683.e2bef6e0dcf43f48f7266f9fdf154847.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,691 INFO  [RS_CLOSE_REGION-Node3:16020-0] regionserver.HRegion: Closed is:incidents,502887jzVw,1476179975683.e2bef6e0dcf43f48f7266f9fdf154847.
+2016-10-17 18:44:20,699 INFO  [StoreCloserThread-is:incidents_10000w,5\xD7\x11,1476166366287.9e4719dfe3999b800d2bdcc0b9dc57b1.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,700 INFO  [RS_CLOSE_REGION-Node3:16020-1] regionserver.HRegion: Closed is:incidents_10000w,5\xD7\x11,1476166366287.9e4719dfe3999b800d2bdcc0b9dc57b1.
+2016-10-17 18:44:20,703 INFO  [StoreCloserThread-is:incidents_10000w,1\x9Cs,1476166366287.807e286be14c6a0d3cb394622cd153b2.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,704 INFO  [RS_CLOSE_REGION-Node3:16020-0] regionserver.HRegion: Closed is:incidents_10000w,1\x9Cs,1476166366287.807e286be14c6a0d3cb394622cd153b2.
+2016-10-17 18:44:20,704 INFO  [StoreCloserThread-ns1:host_metric,5,1476006269984.c883eea10a93d2e0a32f3dbfd05f0d4b.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,720 INFO  [RS_CLOSE_REGION-Node3:16020-1] regionserver.HRegion: Closed ns1:host_metric,5,1476006269984.c883eea10a93d2e0a32f3dbfd05f0d4b.
+2016-10-17 18:44:20,726 INFO  [StoreCloserThread-is:incidents_500w_2,7\x88\x1D,1476242848798.68c0a260f26a0fa34b2887971843aef3.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,727 INFO  [RS_CLOSE_REGION-Node3:16020-2] regionserver.HRegion: Closed is:incidents_500w_2,7\x88\x1D,1476242848798.68c0a260f26a0fa34b2887971843aef3.
+2016-10-17 18:44:20,728 INFO  [StoreCloserThread-ns1:host_log,3,1476693480197.0ea657a506ffe2cadc1c5b11e7891556.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,728 INFO  [RS_CLOSE_REGION-Node3:16020-1] regionserver.HRegion: Closed ns1:host_log,3,1476693480197.0ea657a506ffe2cadc1c5b11e7891556.
+2016-10-17 18:44:20,728 INFO  [StoreCloserThread-hbase:backup,,1475070867273.6b244f34a9588d1165f9067e12344a66.-1] regionserver.HStore: Closed meta
+2016-10-17 18:44:20,728 INFO  [StoreCloserThread-hbase:backup,,1475070867273.6b244f34a9588d1165f9067e12344a66.-1] regionserver.HStore: Closed session
+2016-10-17 18:44:20,740 INFO  [StoreCloserThread-is:incidents_500w_3,2\xE1<,1476247392638.f46e07c920838ef88c356479d71d94c7.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,740 INFO  [RS_CLOSE_REGION-Node3:16020-0] regionserver.HRegion: Closed is:incidents_500w_3,2\xE1<,1476247392638.f46e07c920838ef88c356479d71d94c7.
+2016-10-17 18:44:20,741 INFO  [StoreCloserThread-is:incidents_10000w,,1476166366287.f803abfa924d8c057a6be1a6d0e79fb7.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,746 INFO  [RS_CLOSE_REGION-Node3:16020-2] regionserver.HRegion: Closed hbase:backup,,1475070867273.6b244f34a9588d1165f9067e12344a66.
+2016-10-17 18:44:20,747 INFO  [StoreCloserThread-is:incidents_10000w,2\x08\xB6,1476166366287.eac54a067540f7d4b06168271057e912.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,747 INFO  [RS_CLOSE_REGION-Node3:16020-0] regionserver.HRegion: Closed is:incidents_10000w,2\x08\xB6,1476166366287.eac54a067540f7d4b06168271057e912.
+2016-10-17 18:44:20,747 INFO  [StoreCloserThread-is:incidents_500w_2,3\xB9\xC2,1476242848798.dbe3cdbafbce440af6f942492e347e0e.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,747 INFO  [RS_CLOSE_REGION-Node3:16020-1] regionserver.HRegion: Closed is:incidents_10000w,,1476166366287.f803abfa924d8c057a6be1a6d0e79fb7.
+2016-10-17 18:44:20,748 INFO  [StoreCloserThread-is:incidents_500w_2,999,1476242848798.c4982896938a5ecc51e4b5a3fc26e0eb.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,748 INFO  [RS_CLOSE_REGION-Node3:16020-0] regionserver.HRegion: Closed is:incidents_500w_2,999,1476242848798.c4982896938a5ecc51e4b5a3fc26e0eb.
+2016-10-17 18:44:20,748 INFO  [StoreCloserThread-is:incidents_10000w,4\x92H,1476166366287.145dbd8ebf30a9058172d9ffe09f310c.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,749 INFO  [RS_CLOSE_REGION-Node3:16020-2] regionserver.HRegion: Closed is:incidents_500w_2,3\xB9\xC2,1476242848798.dbe3cdbafbce440af6f942492e347e0e.
+2016-10-17 18:44:20,750 INFO  [StoreCloserThread-is:incidents_500w_2,100,1476242848798.7bb3ed8e29628555dd554a88333ddd20.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,750 INFO  [RS_CLOSE_REGION-Node3:16020-0] regionserver.HRegion: Closed is:incidents_500w_2,100,1476242848798.7bb3ed8e29628555dd554a88333ddd20.
+2016-10-17 18:44:20,756 INFO  [RS_CLOSE_REGION-Node3:16020-1] regionserver.HRegion: Closed is:incidents_10000w,4\x92H,1476166366287.145dbd8ebf30a9058172d9ffe09f310c.
+2016-10-17 18:44:20,758 INFO  [StoreCloserThread-is:incidents_500w_2,5j\xCE,1476242848798.4d35156c8505043f5cf0cbea859bc2bc.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,773 INFO  [StoreCloserThread-is:incidents_500w_3,6\xAF\x97,1476247392638.797ef34b85201ed186d5379433d35cf0.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,773 INFO  [RS_CLOSE_REGION-Node3:16020-2] regionserver.HRegion: Closed is:incidents_500w_3,6\xAF\x97,1476247392638.797ef34b85201ed186d5379433d35cf0.
+2016-10-17 18:44:20,774 INFO  [StoreCloserThread-ns1:host_log,4,1476693480197.06dacd0a8ea14c19efb5cb7e689ba424.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,777 INFO  [RS_CLOSE_REGION-Node3:16020-1] regionserver.HRegion: Closed is:incidents_500w_2,5j\xCE,1476242848798.4d35156c8505043f5cf0cbea859bc2bc.
+2016-10-17 18:44:20,778 INFO  [StoreCloserThread-is:incidents_500w_2,2t\xF9,1476242848798.48400900e93090a52d39264028362953.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,781 INFO  [RS_CLOSE_REGION-Node3:16020-0] regionserver.HRegion: Closed ns1:host_log,4,1476693480197.06dacd0a8ea14c19efb5cb7e689ba424.
+2016-10-17 18:44:20,786 INFO  [StoreCloserThread-is:incidents_500w_3,2t\xF9,1476247392638.62d73ee4127aba41f08f6e487688ae40.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,788 INFO  [regionserver/Node3/172.17.6.103:16020] zookeeper.ZooKeeper: Session: 0x257d08954810003 closed
+2016-10-17 18:44:20,789 INFO  [regionserver/Node3/172.17.6.103:16020-EventThread] zookeeper.ClientCnxn: EventThread shut down
+2016-10-17 18:44:20,797 INFO  [RS_CLOSE_REGION-Node3:16020-2] regionserver.HRegion: Closed is:incidents_500w_2,2t\xF9,1476242848798.48400900e93090a52d39264028362953.
+2016-10-17 18:44:20,789 INFO  [regionserver/Node3/172.17.6.103:16020] regionserver.CompactSplitThread: Waiting for Split Thread to finish...
+2016-10-17 18:44:20,813 INFO  [regionserver/Node3/172.17.6.103:16020] regionserver.CompactSplitThread: Waiting for Merge Thread to finish...
+2016-10-17 18:44:20,813 INFO  [regionserver/Node3/172.17.6.103:16020] regionserver.CompactSplitThread: Waiting for Large Compaction Thread to finish...
+2016-10-17 18:44:20,813 INFO  [regionserver/Node3/172.17.6.103:16020] regionserver.CompactSplitThread: Waiting for Small Compaction Thread to finish...
+2016-10-17 18:44:20,813 INFO  [RS_CLOSE_REGION-Node3:16020-0] regionserver.HRegion: Closed is:incidents_500w_3,2t\xF9,1476247392638.62d73ee4127aba41f08f6e487688ae40.
+2016-10-17 18:44:20,816 INFO  [regionserver/Node3/172.17.6.103:16020] regionserver.HRegionServer: Waiting on 7 regions to close
+2016-10-17 18:44:20,817 INFO  [StoreCloserThread-hbase:meta,,1.1588230740-1] regionserver.HStore: Closed info
+2016-10-17 18:44:20,817 ERROR [RS_CLOSE_META-Node3:16020-0] regionserver.HRegion: Memstore size is 1696
+2016-10-17 18:44:20,817 INFO  [RS_CLOSE_META-Node3:16020-0] regionserver.HRegion: Closed hbase:meta,,1.1588230740
+2016-10-17 18:44:20,834 INFO  [StoreCloserThread-is:incidents,763325IlUJ,1476169755299.49ac61946af51b5c97255d67e36997de.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,834 INFO  [StoreCloserThread-ns1:host_log,1,1476693480197.8e2aba53ee5b0f637e4fcd46f7ee3f05.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,835 ERROR [RS_CLOSE_REGION-Node3:16020-0] regionserver.HRegion: Memstore size is 17304
+2016-10-17 18:44:20,835 INFO  [RS_CLOSE_REGION-Node3:16020-0] regionserver.HRegion: Closed ns1:host_log,1,1476693480197.8e2aba53ee5b0f637e4fcd46f7ee3f05.
+2016-10-17 18:44:20,835 INFO  [RS_CLOSE_REGION-Node3:16020-1] regionserver.HRegion: Closed is:incidents,763325IlUJ,1476169755299.49ac61946af51b5c97255d67e36997de.
+2016-10-17 18:44:20,835 INFO  [StoreCloserThread-ns1:host_metric,2,1476006269984.0e8c73f8804d9b0cde4487e9c44d43dd.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,836 INFO  [StoreCloserThread-is:incidents_500w_3,8\xCC\xE6,1476247392638.2e36511e7890861df2574355c804271c.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,836 INFO  [RS_CLOSE_REGION-Node3:16020-1] regionserver.HRegion: Closed ns1:host_metric,2,1476006269984.0e8c73f8804d9b0cde4487e9c44d43dd.
+2016-10-17 18:44:20,836 INFO  [RS_CLOSE_REGION-Node3:16020-2] regionserver.HRegion: Closed is:incidents_500w_3,8\xCC\xE6,1476247392638.2e36511e7890861df2574355c804271c.
+2016-10-17 18:44:20,866 INFO  [StoreCloserThread-is:incidents_10000w,2\xE1<,1476166366287.40f4fd73001201e67930b61e7d836dfd.-1] regionserver.HStore: Closed f
+2016-10-17 18:44:20,866 INFO  [StoreCloserThread-usertable,user3071548214886784579,1476093306873.f06ae5542bc8a03a826c1aa6016876ff.-1] regionserver.HStore: Closed f1
+2016-10-17 18:44:20,866 INFO  [RS_CLOSE_REGION-Node3:16020-0] regionserver.HRegion: Closed usertable,user3071548214886784579,1476093306873.f06ae5542bc8a03a826c1aa6016876ff.
+2016-10-17 18:44:20,866 INFO  [RS_CLOSE_REGION-Node3:16020-1] regionserver.HRegion: Closed is:incidents_10000w,2\xE1<,1476166366287.40f4fd73001201e67930b61e7d836dfd.
+2016-10-17 18:44:21,016 INFO  [regionserver/Node3/172.17.6.103:16020] regionserver.HRegionServer: stopping server node3,16020,1476672854077; all regions closed.
+2016-10-17 18:44:21,068 WARN  [regionserver/Node3/172.17.6.103:16020] retry.RetryInvocationHandler: Exception while invoking ClientNamenodeProtocolTranslatorPB.complete over null. Not retrying because try once and fail.
+org.apache.hadoop.ipc.RemoteException(org.apache.hadoop.hdfs.server.namenode.LeaseExpiredException): Lease mismatch on /apps/hbase/data/WALs/node3,16020,1476672854077-splitting/node3%2C16020%2C1476672854077..meta.1476698345150.meta (inode 239160) owned by DFSClient_NONMAPREDUCE_-1078181521_1 but is accessed by DFSClient_NONMAPREDUCE_-1482526036_1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkLease(FSNamesystem.java:3549)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.completeFileInternal(FSNamesystem.java:3611)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.completeFile(FSNamesystem.java:3578)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.complete(NameNodeRpcServer.java:905)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.complete(ClientNamenodeProtocolServerSideTranslatorPB.java:544)
+	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine.java:640)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:982)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:2313)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:2309)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1724)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2307)
+
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1552)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1496)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1396)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:233)
+	at com.sun.proxy.$Proxy21.complete(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.complete(ClientNamenodeProtocolTranslatorPB.java:501)
+	at sun.reflect.GeneratedMethodAccessor37.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:278)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:194)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:176)
+	at com.sun.proxy.$Proxy22.complete(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor37.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.hbase.fs.HFileSystem$1.invoke(HFileSystem.java:279)
+	at com.sun.proxy.$Proxy23.complete(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSOutputStream.completeFile(DFSOutputStream.java:2361)
+	at org.apache.hadoop.hdfs.DFSOutputStream.closeImpl(DFSOutputStream.java:2338)
+	at org.apache.hadoop.hdfs.DFSOutputStream.close(DFSOutputStream.java:2303)
+	at org.apache.hadoop.fs.FSDataOutputStream$PositionCache.close(FSDataOutputStream.java:72)
+	at org.apache.hadoop.fs.FSDataOutputStream.close(FSDataOutputStream.java:106)
+	at org.apache.hadoop.hbase.regionserver.wal.ProtobufLogWriter.close(ProtobufLogWriter.java:131)
+	at org.apache.hadoop.hbase.regionserver.wal.FSHLog.shutdown(FSHLog.java:1217)
+	at org.apache.hadoop.hbase.wal.DefaultWALProvider.shutdown(DefaultWALProvider.java:114)
+	at org.apache.hadoop.hbase.wal.WALFactory.shutdown(WALFactory.java:216)
+	at org.apache.hadoop.hbase.regionserver.HRegionServer.shutdownWAL(HRegionServer.java:1323)
+	at org.apache.hadoop.hbase.regionserver.HRegionServer.run(HRegionServer.java:1072)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-17 18:44:21,140 ERROR [regionserver/Node3/172.17.6.103:16020] regionserver.HRegionServer: Shutdown / close of WAL failed: org.apache.hadoop.hdfs.server.namenode.LeaseExpiredException: Lease mismatch on /apps/hbase/data/WALs/node3,16020,1476672854077-splitting/node3%2C16020%2C1476672854077..meta.1476698345150.meta (inode 239160) owned by DFSClient_NONMAPREDUCE_-1078181521_1 but is accessed by DFSClient_NONMAPREDUCE_-1482526036_1
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.checkLease(FSNamesystem.java:3549)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.completeFileInternal(FSNamesystem.java:3611)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.completeFile(FSNamesystem.java:3578)
+	at org.apache.hadoop.hdfs.server.namenode.NameNodeRpcServer.complete(NameNodeRpcServer.java:905)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolServerSideTranslatorPB.complete(ClientNamenodeProtocolServerSideTranslatorPB.java:544)
+	at org.apache.hadoop.hdfs.protocol.proto.ClientNamenodeProtocolProtos$ClientNamenodeProtocol$2.callBlockingMethod(ClientNamenodeProtocolProtos.java)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker.call(ProtobufRpcEngine.java:640)
+	at org.apache.hadoop.ipc.RPC$Server.call(RPC.java:982)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:2313)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:2309)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1724)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:2307)
+
+2016-10-17 18:44:21,151 INFO  [regionserver/Node3/172.17.6.103:16020] regionserver.Leases: regionserver/Node3/172.17.6.103:16020 closing leases
